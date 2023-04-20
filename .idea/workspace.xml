@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="初始化" />
+    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="初始化">
+      <change afterPath="$PROJECT_DIR$/3.5/web/images/420.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5/web/images/4201.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.5/web/allShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/web/allShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.5/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/3_5_war_exploded/allShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/3_5_war_exploded/allShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/3_5_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/3_5_war_exploded/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3.5/web/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="工件" />
     <property name="project.structure.proportion" value="0.15" />
@@ -43,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5\web\images" />
       <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5\web\WEB-INF\lib" />
       <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5" />
       <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5\web" />
@@ -147,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681980895955</updated>
       <workItem from="1681980897737" duration="822000" />
-      <workItem from="1681981803317" duration="4858000" />
+      <workItem from="1681981803317" duration="6567000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1682001580993</created>
@@ -156,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682001580993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化">
+      <created>1682001946192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682001946192</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

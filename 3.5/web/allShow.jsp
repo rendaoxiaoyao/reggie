@@ -13,17 +13,45 @@
      Model model=new Model();
  	 ArrayList<User> arraylist=model.userSelect();
 			%>
-			数据库中所有用户
-			<table border="1">
-			<%for(int i=0;i<arraylist.size();i++){%>
-				<tr>
-				<td><%=arraylist.get(i).getId()%></td>
-				<td><%=arraylist.get(i).getName() %></td>
-				<td><%=arraylist.get(i).getPassword() %></td>
-				</tr>
+
+	<h1>用户成员</h1>
+	<table align="center" border="2" cellpadding="15px" cellspacing="0">
+		<thead>
+		<%for(int i=0;i<arraylist.size();i++){%>
+		<tr>
+			<th>id</th> <th>姓名</th> <th>密码</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td><%=arraylist.get(i).getId()%></td>
+			<td><%=arraylist.get(i).getName() %></td>
+			<td><%=arraylist.get(i).getPassword() %></td>
+		</tr>
 		<%
-		}
-     %>
-     </table>
+			}
+		%>
+		</tbody>
+	</table>
   </body>
+  <style>
+	  body{
+		  background: url(images/420.jpg);   /* biu特佛 的背景图片 */
+		  background-size: 100% 100%;
+		  color:black;
+		  font-size: 23px;    /* 文字大小 */
+	  }
+	  a{
+		  text-decoration: none;    /* 去除链接的下划线 */
+		  color:black;
+	  }
+	  table{
+		  width: 70%;
+		  height: 50px;
+		  text-align: center;    /* 文字在单元格中居中 */
+	  }
+	  h1{
+		  text-align: center;
+	  }
+  </style>
 </html>

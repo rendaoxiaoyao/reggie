@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>用户综合管理软件</title>
   </head>
   <body>
   <button id="add">增加</button><br>
