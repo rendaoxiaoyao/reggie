@@ -22,7 +22,13 @@ public class UserDaoImpl implements UserDao {
         try {
             connection=DButil.getConnection();
 
-            String sql="select * from user where id="+user.getName();
+
+            String sql="select * from user where id="+user.getId();
+
+            if(user.getName()!=null&&user.getName()!=""){
+                sql="select * from user where id="+user.getName();
+            }
+
             System.out.println(sql);
 
             ps=connection.prepareStatement(sql);

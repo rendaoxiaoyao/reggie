@@ -20,6 +20,9 @@ public class UserServlet extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         System.out.println("doGet");
         String method = request.getParameter("method");
+        if(method==null){
+            method="update";
+        }
         switch (method){
             case "add":
                 String name=request.getParameter("name");
@@ -33,9 +36,20 @@ public class UserServlet extends HttpServlet {
                 response.sendRedirect("/3.5.1/UserServlet?method=select");
                 break;
             case "update":
+                String get=request.getParameter("get");
                 Integer uid= Integer.valueOf(request.getParameter("id"));
                 String uname=request.getParameter("name");
                 String upassword=request.getParameter("password");
+                if(get!=null){
+                    System.out.println("uid="+uid);
+
+                    User byId = userService.getById(new User(uid, uname, upassword));
+                    System.out.println("byId="+byId);
+                    request.getSession().setAttribute("user",byId);
+                    request.getRequestDispatcher("/page/update.jsp").forward(request,response);
+                    break;
+                }
+
                 userService.update(new User(uid,uname,upassword));
                 response.sendRedirect("/3.5.1/UserServlet?method=select");
                 break;

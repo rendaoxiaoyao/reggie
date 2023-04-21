@@ -55,10 +55,12 @@
 <script>
 
     function UserDelete(id) {
+        console.log(id)
         location.href="/3.5.1/UserServlet?id="+id+"&method=delete"
     }
     function UserUpdate(id) {
-        location.href="/3.5.1/UserServlet?id="+id+"&method=update"
+        console.log(id)
+        location.href="/3.5.1/UserServlet?id="+id+"&method=update&get=get"
     }
     function select() {
         msg=document.getElementById('msg').value;
