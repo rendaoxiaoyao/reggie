@@ -9,15 +9,38 @@
 <html>
 <head>
     <title>增加</title>
+    <link rel="stylesheet" type="text/css" href=".../css/common.css">
+    <style>
+        #button{
+            width: 80px;
+        }
+    </style>
 </head>
 <body>
 
 <form action="/3.5.1/UserServlet?method=add" method="post">
 <%--    请输入id：    <input type="text" name="id"><br/>--%>
-    请输入姓名：   <input type="text" name="name"><br/>
-    请输入密码：   <input type="text" name="password"><br/>
-                <input type="submit" value="提交">
+    请输入姓名：   <input type="text" id="name" name="name"><br/>
+    请输入密码：   <input type="text" id="password" name="password"><br/>
+                <input id="button" type="submit" value="提交" onclick="return add()">
 </form>
+
+<script>
+    function add() {
+        name=document.getElementById('name').value;
+        password=document.getElementById('password').value;
+        if(name==null||name==""||password==null||password==" "){
+            return false;
+        }
+
+        console.log("你好啊")
+        return true
+    }
+
+</script>
+
 
 </body>
 </html>
+
+
