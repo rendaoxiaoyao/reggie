@@ -36,7 +36,7 @@
   </body>
   <style>
 	  body{
-		  background: url(images/4201.png);   /* biu特佛 的背景图片 */
+		  background: url(images/420.jpg);   /* biu特佛 的背景图片 */
 		  background-size: 100% 100%;
 		  color:black;
 		  font-size: 23px;    /* 文字大小 */

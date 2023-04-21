@@ -5,20 +5,65 @@
       <artifact name="3.5:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="初始化">
-      <change afterPath="$PROJECT_DIR$/3.5/web/images/420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.5/web/images/4201.png" afterDir="false" />
+    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="添加背景图片">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/3_5_1_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/3_5_1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/3.5.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/utils/DButil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/images/420.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/images/4201.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/page/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/page/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/page/select.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/page/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/3_5_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/3_5_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/web/allShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/web/allShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.5/3.5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/3.5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/3_5_war_exploded/allShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/3_5_war_exploded/allShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/3_5_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/3_5_war_exploded/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,8 +75,18 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\2001\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2OgSmin2DR5Xx1POy3SpaSWGujV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,11 +94,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/3.5/web/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="工件" />
+    <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37816092" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
@@ -51,11 +108,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5.1\3.5.1\src\main\webapp" />
+      <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5.1\3.5.1\src\main\webapp\page" />
       <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5\web\images" />
       <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5\web\WEB-INF\lib" />
       <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5" />
-      <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5\web" />
-      <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5\src\com\rdxy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5.1\3.5.1\src\main\java\com\rdxy\filter" />
     </key>
   </component>
   <component name="RunManager">
@@ -156,7 +216,8 @@
       <option name="presentableId" value="Default" />
       <updated>1681980895955</updated>
       <workItem from="1681980897737" duration="822000" />
-      <workItem from="1681981803317" duration="6567000" />
+      <workItem from="1681981803317" duration="9756000" />
+      <workItem from="1682040817177" duration="20527000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1682001580993</created>
@@ -172,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682001946192</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加背景图片">
+      <created>1682003765396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682003765396</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,9 +256,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
+    <MESSAGE value="添加背景图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加背景图片" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/dao/impl/UserDaoImpl.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/servlet/UserServlet.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/servlet/UserServlet.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
