@@ -16,12 +16,29 @@
 </head>
 <body>
 
-<form action="/3.5.1/UserServlet?method=update&" method="get">
-        请输入id：    <input type="text" name="id" value="${user.id}" readonly = "readonly"><br/>
-    请输入姓名：   <input type="text" name="name" value="${user.name}"><br/>
-    请输入密码：   <input type="text" name="password" value="${user.password}"><br/>
-    <input type="submit" value="提交">
-</form>
+
+        请输入id：    <input type="text" id="id" value="${user.id}" readonly = "readonly"><br/>
+    请输入姓名：   <input type="text" id="name" value="${user.name}"><br/>
+    请输入密码：   <input type="text" id="password" value="${user.password}"><br/>
+    <input type="button" value="提交" onclick="update()">
+
+<script>
+
+    function update() {
+        id=document.getElementById("id").value;
+        name=document.getElementById("name").value;
+        password=document.getElementById("password").value;
+
+        console.log("id="+id+"\tname="+name+"\tpassword="+password)
+
+        if(name==null||name==""||password==null||password==""){
+            return;
+        }
+        location.href="/3.5.1/UserServlet?method=update&id="+id+"&name="+name+"&password="+password;
+
+    }
+
+</script>
 
 </body>
 </html>

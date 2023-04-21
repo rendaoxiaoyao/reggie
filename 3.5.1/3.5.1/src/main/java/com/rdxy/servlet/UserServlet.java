@@ -20,9 +20,7 @@ public class UserServlet extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         System.out.println("doGet");
         String method = request.getParameter("method");
-        if(method==null){
-            method="update";
-        }
+
         switch (method){
             case "add":
                 String name=request.getParameter("name");
@@ -39,6 +37,9 @@ public class UserServlet extends HttpServlet {
                 String get=request.getParameter("get");
                 Integer uid= Integer.valueOf(request.getParameter("id"));
                 String uname=request.getParameter("name");
+                if(uname!=null){
+                    uname = new String(uname.getBytes("iso-8859-1"), "utf-8");
+                }
                 String upassword=request.getParameter("password");
                 if(get!=null){
                     System.out.println("uid="+uid);

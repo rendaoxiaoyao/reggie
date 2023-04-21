@@ -62,7 +62,7 @@ public class UserDaoImpl implements UserDao {
             String sql="select * from user ";
             if(msg!=null&&msg!=""){
                 if(msg.matches("^[0-9]+$")){
-                    sql="select * from user where id like '%"+msg+"'";
+                    sql="select * from user where id like '%"+msg+"%'";
                 }else{
                     sql="select * from user where name like '%"+msg+"%'";
                 }
@@ -150,6 +150,26 @@ public class UserDaoImpl implements UserDao {
             ps=connection.prepareStatement(sql);
             flag = ps.execute();
 
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DButil.closeAll(connection,ps,rs);
+        }
+
+        return flag;
+    }
+
+    @Override
+    public boolean update(User user) {
+        boolean flag=false;
+        try {
+            connection=DButil.getConnection();
+            String sql="update user set name= '"+user.getName()+"',password='"+user.getPassword()+"' where id="+user.getId();
+            System.out.println(sql);
+
+            ps=connection.prepareStatement(sql);
+            flag = ps.execute();
 
         } catch (SQLException e) {
             e.printStackTrace();

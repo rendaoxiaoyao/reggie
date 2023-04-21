@@ -15,4 +15,6 @@ public interface UserDao {
     boolean deleteByIds(int[] ids);
 
     boolean insert(User user);
+
+    boolean update(User user);
 }
