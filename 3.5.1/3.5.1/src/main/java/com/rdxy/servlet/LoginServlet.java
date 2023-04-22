@@ -28,7 +28,7 @@ public class LoginServlet extends HttpServlet {
         User user=new User(name,password);
         user=userService.getById(user);
 
-        if(user==null){
+        if(user==null||!user.getPassword().equals(password)){
             resp.sendRedirect("http://localhost:8080/3.5.1/login.jsp");
             return;
         }
