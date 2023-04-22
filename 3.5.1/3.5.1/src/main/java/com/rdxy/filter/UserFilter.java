@@ -8,7 +8,7 @@ import java.io.IOException;
 
 
 @WebFilter("/users/*")
-public class LoginFilter implements Filter {
+public class UserFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 

@@ -29,7 +29,8 @@
     function add() {
         name=document.getElementById('name').value;
         password=document.getElementById('password').value;
-        if(name==null||name==""||password==null||password==" "){
+
+        if(name==""||password==" "){
             return false;
         }
 
