@@ -14,7 +14,7 @@
 <html>
 <head>
     <title>查询</title>
-    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
 </head>
 <body>
 
@@ -33,7 +33,7 @@
 
     <thead>
     <tr>
-        <th>id</th> <th>姓名</th> <th>密码</th>
+        <th>id</th> <th>姓名</th> <th>密码</th><th>操作</th>
     </tr>
     </thead>
     <tbody>
@@ -56,16 +56,16 @@
 
     function UserDelete(id) {
         console.log(id)
-        location.href="/3.5.1/UserServlet?id="+id+"&method=delete"
+        location.href="/3.5.1/users/UserServlet?id="+id+"&method=delete"
     }
     function UserUpdate(id) {
         console.log(id)
-        location.href="/3.5.1/UserServlet?id="+id+"&method=update&get=get"
+        location.href="/3.5.1/users/UserServlet?id="+id+"&method=update&get=get"
     }
     function select() {
         msg=document.getElementById('msg').value;
         console.log(msg);
-        location.href="/3.5.1/UserServlet?method=select&msg="+msg;
+        location.href="/3.5.1/users/UserServlet?method=select&msg="+msg;
     }
     function add() {
         location.href="/3.5.1/page/insert.jsp"
@@ -85,7 +85,7 @@
         height: 30px;
     }
     body{
-        background: url('./images/420.jpg');   /* biu特佛 的背景图片 */
+        background:url("../images/420.jpg");   /* biu特佛 的背景图片 */
         background-size: 100% ;
         color:black;
         font-size: 23px;    /* 文字大小 */

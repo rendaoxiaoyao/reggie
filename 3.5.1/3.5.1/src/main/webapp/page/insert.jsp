@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<form action="/3.5.1/UserServlet?method=add" method="post">
+<form action="/3.5.1/users/UserServlet?method=add" method="post">
 <%--    请输入id：    <input type="text" name="id"><br/>--%>
     请输入姓名：   <input type="text" id="name" name="name"><br/>
     请输入密码：   <input type="text" id="password" name="password"><br/>

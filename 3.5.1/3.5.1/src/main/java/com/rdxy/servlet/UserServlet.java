@@ -10,7 +10,7 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "UserServlet", value = "/UserServlet")
+@WebServlet(name = "UserServlet", value = "/users/UserServlet")
 public class UserServlet extends HttpServlet {
     private UserService userService=new UserServiceImpl();
 
@@ -52,7 +52,7 @@ public class UserServlet extends HttpServlet {
                 }
 
                 userService.update(new User(uid,uname,upassword));
-                response.sendRedirect("/3.5.1/UserServlet?method=select");
+                response.sendRedirect("/3.5.1/users/UserServlet?method=select");
                 break;
             case "select":
                 String msg=null;

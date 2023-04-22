@@ -36,7 +36,7 @@
         if(name==null||name==""||password==null||password==""){
             return;
         }
-        location.href="/3.5.1/UserServlet?method=update&id="+id+"&name="+name+"&password="+password;
+        location.href="/3.5.1/users/UserServlet?method=update&id="+id+"&name="+name+"&password="+password;
 
     }
 
