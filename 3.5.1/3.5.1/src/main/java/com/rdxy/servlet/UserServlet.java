@@ -27,11 +27,11 @@ public class UserServlet extends HttpServlet {
                 String password=request.getParameter("password");
                 System.out.println("name="+name+" password="+password);
                 userService.insert(new User(name,password));
-                response.sendRedirect("/3.5.1/UserServlet?method=select");
+                response.sendRedirect("/3.5.1/users/UserServlet?method=select");
                 break;
             case "delete":
                 userService.delete(Integer.valueOf(request.getParameter("id")));
-                response.sendRedirect("/3.5.1/UserServlet?method=select");
+                response.sendRedirect("/3.5.1/users/UserServlet?method=select");
                 break;
             case "update":
                 String get=request.getParameter("get");
