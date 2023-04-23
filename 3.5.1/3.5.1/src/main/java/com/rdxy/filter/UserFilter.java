@@ -7,7 +7,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebFilter("/users/*")
+@WebFilter(urlPatterns = {"/users/*", "/index.jsp" ,"/page/*"})
+
 public class UserFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
@@ -20,6 +21,15 @@ public class UserFilter implements Filter {
 
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
+
+        String uri = request.getRequestURI().split("/")[1];
+
+        if(uri.equals("login.jsp")||uri.equals("login")){
+            filterChain.doFilter(servletRequest,servletResponse);
+            return;
+        }
+
+        System.out.println(request.getRequestURI());
 
         Object user = request.getSession().getAttribute("user");
         if(user==null){

@@ -51,6 +51,7 @@ public class UserServlet extends HttpServlet {
                     break;
                 }
 
+
                 userService.update(new User(uid,uname,upassword));
                 response.sendRedirect("/3.5.1/users/UserServlet?method=select");
                 break;

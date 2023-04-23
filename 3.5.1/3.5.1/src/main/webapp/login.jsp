@@ -40,7 +40,7 @@
 
     <!--  注册按钮    -->
     <div class="register">
-        <button>创建新账号</button>
+        <button onclick="add()">创建新账号</button>
     </div>
 
 </div>
@@ -58,6 +58,10 @@
         }
 
     })
+
+    function add() {
+        location.href="http://localhost:8080/3.5.1/page/insert.jsp";
+    }
 
 
 </script>

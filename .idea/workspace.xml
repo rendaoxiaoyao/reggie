@@ -10,8 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="3.5.1">
-      <change beforePath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/filter/UserFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/filter/UserFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/filter/UserFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/servlet/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/page/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/page/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/3.5.1/3.5.1/src/main/webapp/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37816092" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -182,7 +186,7 @@
       <updated>1681980895955</updated>
       <workItem from="1681980897737" duration="822000" />
       <workItem from="1681981803317" duration="9756000" />
-      <workItem from="1682040817177" duration="37230000" />
+      <workItem from="1682040817177" duration="41947000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1682001580993</created>
@@ -282,7 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682174031058</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="3.5.1">
+      <created>1682175693251</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682175693251</updated>
+    </task>
+    <task id="LOCAL-00016" summary="3.5.1">
+      <created>1682175863483</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682175863483</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,12 +329,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/servlet/UserServlet.java</url>
-          <line>63</line>
+          <line>64</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/3.5.1/3.5.1/src/main/java/com/rdxy/servlet/UserServlet.java</url>
-          <line>61</line>
+          <line>62</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
