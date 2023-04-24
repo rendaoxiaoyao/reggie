@@ -16,6 +16,7 @@ public class UserDaoImpl implements UserDao {
 
     Connection connection=null;
     PreparedStatement ps=null;
+
     ResultSet rs=null;
     @Override
     public User getById(User user) {
@@ -141,15 +142,14 @@ public class UserDaoImpl implements UserDao {
     @Override
     public boolean insert(User user) {
 
-        boolean flag=false;
+        int flag=0;
         try {
             connection=DButil.getConnection();
             String sql="insert into user(name,password) values ('"+user.getName()+"','"+user.getPassword()+"')";
             System.out.println(sql);
 
             ps=connection.prepareStatement(sql);
-            flag = ps.execute();
-
+            flag = ps.executeUpdate();
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -157,7 +157,7 @@ public class UserDaoImpl implements UserDao {
             DButil.closeAll(connection,ps,rs);
         }
 
-        return flag;
+        return flag>0;
     }
 
     @Override
@@ -178,5 +178,18 @@ public class UserDaoImpl implements UserDao {
         }
 
         return flag;
+    }
+
+    @Override
+    public Integer saveByIds(List<User> users) {
+
+        Integer len=0;
+        UserDao userDao=new UserDaoImpl();
+        for (int i = 0; i < users.size(); i++) {
+            boolean f = userDao.insert(users.get(i));
+            len=f?len+1:len;
+
+        }
+        return len;
     }
 }

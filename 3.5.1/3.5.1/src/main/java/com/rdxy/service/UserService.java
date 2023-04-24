@@ -13,4 +13,5 @@ public interface UserService {
     public User getById(User user);
     public List<User> getAll(String msg);
 
+    Integer saveByIds(List<User> objList);
 }

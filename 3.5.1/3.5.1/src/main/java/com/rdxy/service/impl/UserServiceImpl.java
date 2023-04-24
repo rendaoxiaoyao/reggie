@@ -41,4 +41,9 @@ public class UserServiceImpl implements UserService {
     public List<User> getAll(String msg) {
         return userDao.getAll(msg);
     }
+
+    @Override
+    public Integer saveByIds(List<User> users) {
+        return userDao.saveByIds(users);
+    }
 }

@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface UserDao {
 
-    public User getById(User user);
+    User getById(User user);
 
     List<User> getAll(String msg);
 
@@ -17,4 +17,6 @@ public interface UserDao {
     boolean insert(User user);
 
     boolean update(User user);
+
+    Integer saveByIds(List<User> users);
 }

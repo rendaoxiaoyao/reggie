@@ -37,7 +37,7 @@ public class RandomNameUtils {
         StringBuilder ret = new StringBuilder();
         Random random=new Random();
         int c=random.nextInt(100);
-        System.out.println(c);
+        //System.out.println(c);
         if(c>=50){
             len=2;
         }else{
