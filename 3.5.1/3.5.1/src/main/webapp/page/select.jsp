@@ -55,6 +55,7 @@
 <script>
 
     function UserDelete(id) {
+        alert(123)
         console.log(id)
         location.href="/3.5.1/users/UserServlet?id="+id+"&method=delete"
     }
