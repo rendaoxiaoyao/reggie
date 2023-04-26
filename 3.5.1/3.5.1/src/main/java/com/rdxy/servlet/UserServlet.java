@@ -29,14 +29,9 @@ public class UserServlet extends HttpServlet {
                 String password=request.getParameter("password");
                 System.out.println("name="+name+" password="+password);
                 userService.insert(new User(name,password));
-                Object m = request.getSession().getAttribute("user");
-                if(m!=null){
-                    response.sendRedirect("/3.5.1/users/UserServlet?method=select");
-                }else {
-                    User user=userService.find_name_id(name);
-                    request.setAttribute("user",user);
-                    request.getRequestDispatcher("/login.jsp").forward(request,response);
-                }
+
+
+                response.sendRedirect("/3.5.1/users/UserServlet?method=select");
 
                 break;
             case "delete":

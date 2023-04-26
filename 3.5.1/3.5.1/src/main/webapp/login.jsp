@@ -64,7 +64,7 @@
     })
 
     function add() {
-        location.href="http://localhost:8080/3.5.1/page/insert.jsp";
+        location.href="http://localhost:8080/3.5.1/register.jsp";
     }
 
 
