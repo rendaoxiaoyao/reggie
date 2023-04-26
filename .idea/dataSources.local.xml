@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-211.7628.21" />
+  <component name="dataSourceStorageLocal" created-in="IU-211.7628.21">
+    <data-source name="mysql8.0" uuid="44604eec-c2fa-4dd3-9815-84efe890db77">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+  </component>
 </project>

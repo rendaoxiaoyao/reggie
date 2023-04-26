@@ -7,7 +7,7 @@ public class DButil {
     static {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/mydatabase","root","root");
+            connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/mydatabase","root","123456");
         } catch (Exception e) {
             e.printStackTrace();
         }

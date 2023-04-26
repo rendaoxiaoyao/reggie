@@ -25,7 +25,7 @@ public class UserFilter implements Filter {
         String uri = request.getRequestURI();
 
         System.out.println(request.getRequestURI());
-        if(uri.contains("login")||uri.contains("insert.jsp")){
+        if(uri.contains("login")){
             filterChain.doFilter(servletRequest,servletResponse);
             return;
         }
