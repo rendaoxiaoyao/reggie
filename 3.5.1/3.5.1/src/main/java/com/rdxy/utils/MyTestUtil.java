@@ -9,7 +9,7 @@ public class MyTestUtil {
     public static void main(String[] args) throws IOException {
         ArrayList<User> users=new ArrayList<>();
         for (int i = 0; i < 100; i++) {
-            users.add(new User(RandomNameUtils.fullName(),"123456"));
+            users.add(new User(RandomNameUtil.fullName(),"123456"));
 
         }
 

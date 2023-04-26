@@ -7,7 +7,7 @@ import java.util.Random;
  * @author 向振华
  * @date 2022/04/10 11:35
  */
-public class RandomNameUtils {
+public class RandomNameUtil {
  
     /**
      * 随机获取姓名
@@ -101,7 +101,7 @@ public class RandomNameUtils {
 
         for (int i = 0; i < 100; i++) {
 
-            String name = RandomNameUtils.fullName();
+            String name = RandomNameUtil.fullName();
             System.out.println(name);
         }
 

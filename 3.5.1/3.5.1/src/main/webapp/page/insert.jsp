@@ -39,7 +39,7 @@
 
     <%
     User user=(User) request.getSession().getAttribute("user");
-    if(user==null&&user.getId()!=1001){
+    if(user==null||user.getId()!=1001){
     %>
     document.getElementById('upload').style.display='none';
     <%

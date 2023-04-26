@@ -13,7 +13,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * @author : 尚腾飞
@@ -38,7 +37,7 @@ public class InsertDB {
 
         ArrayList<User> new_users=new ArrayList<>();
         for (int i = 0; i < 100; i++) {
-            new_users.add(new User(RandomNameUtils.fullName(),"123456"));
+            new_users.add(new User(RandomNameUtil.fullName(),"123456"));
 
         }
 
