@@ -13,4 +13,9 @@ public interface UserService {
     public User getById(User user);
     public List<User> getAll(String msg);
 
+    Integer saveByIds(List<User> objList);
+
+    int deletes();
+
+    User find_name_id(String name);
 }

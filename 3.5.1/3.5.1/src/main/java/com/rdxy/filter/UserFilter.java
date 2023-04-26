@@ -22,14 +22,16 @@ public class UserFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
-        String uri = request.getRequestURI().split("/")[1];
+        String uri = request.getRequestURI();
 
-        if(uri.equals("login.jsp")||uri.equals("login")){
+        System.out.println(request.getRequestURI());
+        if(uri.contains("login")||uri.contains("insert.jsp")){
             filterChain.doFilter(servletRequest,servletResponse);
             return;
         }
 
-        System.out.println(request.getRequestURI());
+
+
 
         Object user = request.getSession().getAttribute("user");
         if(user==null){

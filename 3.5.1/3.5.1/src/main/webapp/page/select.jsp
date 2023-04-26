@@ -14,6 +14,7 @@
 <html>
 <head>
     <title>查询</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/common.css">
 </head>
 <body>
@@ -25,6 +26,7 @@
     <input type="text" id="msg" class="msg">
     <button id="select" onclick="select()">查询</button>
     <button id="add" onclick="add()">增加</button>
+    <button id="deletes" onclick="UserDeletes()">清空</button>
 </div>
 
 
@@ -54,9 +56,15 @@
 
 <script>
 
+
     function UserDelete(id) {
+        alert(123)
         console.log(id)
         location.href="/3.5.1/users/UserServlet?id="+id+"&method=delete"
+    }
+    function UserDeletes() {
+        location.href="/3.5.1/users/UserServlet?method=delete"
+
     }
     function UserUpdate(id) {
         console.log(id)
@@ -71,11 +79,14 @@
         location.href="/3.5.1/page/insert.jsp"
     }
 
+
+
+
 </script>
 </body>
 <style>
 
-     div{
+    div{
         width:70%;    /*宽度设置固定值*/
         height: 40px;
         margin:10px auto;

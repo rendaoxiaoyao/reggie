@@ -16,6 +16,7 @@ public class UserDaoImpl implements UserDao {
 
     Connection connection=null;
     PreparedStatement ps=null;
+
     ResultSet rs=null;
     @Override
     public User getById(User user) {
@@ -93,14 +94,14 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public boolean deleteById(int id) {
-        boolean flag=false;
+        int flag=0;
         try {
             connection=DButil.getConnection();
             String sql="delete from user where id="+id;
             System.out.println(sql);
 
             ps=connection.prepareStatement(sql);
-            flag = ps.execute();
+            flag = ps.executeUpdate();
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -108,7 +109,7 @@ public class UserDaoImpl implements UserDao {
             DButil.closeAll(connection,ps,rs);
         }
 
-        return flag;
+        return flag>0;
     }
 
     @Override
@@ -141,15 +142,14 @@ public class UserDaoImpl implements UserDao {
     @Override
     public boolean insert(User user) {
 
-        boolean flag=false;
+        int flag=0;
         try {
             connection=DButil.getConnection();
             String sql="insert into user(name,password) values ('"+user.getName()+"','"+user.getPassword()+"')";
             System.out.println(sql);
 
             ps=connection.prepareStatement(sql);
-            flag = ps.execute();
-
+            flag = ps.executeUpdate();
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -157,7 +157,7 @@ public class UserDaoImpl implements UserDao {
             DButil.closeAll(connection,ps,rs);
         }
 
-        return flag;
+        return flag>0;
     }
 
     @Override
@@ -179,4 +179,72 @@ public class UserDaoImpl implements UserDao {
 
         return flag;
     }
+
+    @Override
+    public Integer saveByIds(List<User> users) {
+
+        Integer len=0;
+        UserDao userDao=new UserDaoImpl();
+        for (int i = 0; i < users.size(); i++) {
+            boolean f = userDao.insert(users.get(i));
+            len=f?len+1:len;
+
+        }
+        return len;
+    }
+
+    @Override
+    public int deletes() {
+        int sum=0;
+        try {
+            connection=DButil.getConnection();
+            String sql="delete from user where id!=1001;";
+            System.out.println(sql);
+            ps=connection.prepareStatement(sql);
+            sum=ps.executeUpdate();
+            ps=connection.prepareStatement("ALTER TABLE user AUTO_INCREMENT = 1002;");
+            ps.execute();
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DButil.closeAll(connection,ps,rs);
+        }
+        return sum;
+    }
+
+    @Override
+    public User find_name_id(String name) {
+        Connection connection=null;
+        PreparedStatement ps=null;
+        ResultSet rs=null;
+
+        try {
+            connection=DButil.getConnection();
+            String sql="select * from user where name='"+name+"'";
+
+
+            System.out.println(sql);
+
+            ps=connection.prepareStatement(sql);
+            rs=ps.executeQuery();
+            while(rs.next()){
+                User u=new User();
+                u.setId(rs.getInt("id"));
+                u.setName(rs.getString("name"));
+                u.setPassword(rs.getString("password"));
+                System.out.println("u="+u.toString());
+                return u;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DButil.closeAll(connection,ps,rs);
+        }
+
+        return null;
+    }
+
+
 }

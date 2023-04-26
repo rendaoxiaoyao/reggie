@@ -10,6 +10,7 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.util.List;
 
+
 @WebServlet(name = "UserServlet", value = "/users/UserServlet")
 public class UserServlet extends HttpServlet {
     private UserService userService=new UserServiceImpl();
@@ -23,14 +24,40 @@ public class UserServlet extends HttpServlet {
 
         switch (method){
             case "add":
+
                 String name=request.getParameter("name");
                 String password=request.getParameter("password");
                 System.out.println("name="+name+" password="+password);
                 userService.insert(new User(name,password));
-                response.sendRedirect("/3.5.1/users/UserServlet?method=select");
+                Object m = request.getSession().getAttribute("user");
+                if(m!=null){
+                    response.sendRedirect("/3.5.1/users/UserServlet?method=select");
+                }else {
+                    User user=userService.find_name_id(name);
+                    request.setAttribute("user",user);
+                    request.getRequestDispatcher("/login.jsp").forward(request,response);
+                }
+
                 break;
             case "delete":
-                userService.delete(Integer.valueOf(request.getParameter("id")));
+                String id = request.getParameter("id");
+                User user = (User) request.getSession().getAttribute("user");
+                if(user.getId()==1001){
+                    if(id!=null){
+                        userService.delete(Integer.valueOf(request.getParameter("id")));
+
+                    }else {
+
+                        int sum=userService.deletes();
+                        //request.getSession().removeAttribute("user");
+                        System.out.println("删除了"+sum);
+                    }
+
+                }else {
+                    System.out.println("你没有权限");
+                }
+
+
                 response.sendRedirect("/3.5.1/users/UserServlet?method=select");
                 break;
             case "update":
@@ -67,9 +94,9 @@ public class UserServlet extends HttpServlet {
                 List<User> users=userService.getAll(msg);
 
                 System.out.println("UserServlet");
-                for (int i = 0; i < users.size(); i++) {
-                    System.out.println(users.get(i));
-                }
+//                for (int i = 0; i < users.size(); i++) {
+//                    System.out.println(users.get(i));
+//                }
                 //request.getSession().setAttribute("list",users);
                 request.setAttribute("list",users);
 
