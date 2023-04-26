@@ -46,4 +46,14 @@ public class UserServiceImpl implements UserService {
     public Integer saveByIds(List<User> users) {
         return userDao.saveByIds(users);
     }
+
+    @Override
+    public int deletes() {
+        return userDao.deletes();
+    }
+
+    @Override
+    public User find_name_id(String name) {
+        return userDao.find_name_id(name);
+    }
 }

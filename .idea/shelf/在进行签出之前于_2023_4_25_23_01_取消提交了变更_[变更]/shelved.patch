@@ -1,0 +1,234 @@
+Index: .idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.apache.poi:poi-ooxml-schemas:3.17\">\r\n    <CLASSES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml b/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml
+--- a/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml	
++++ b/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml	
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.apache.poi:poi-ooxml-schemas:3.17">
+     <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-javadoc.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-sources.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.apache.commons:commons-collections4:4.1\">\r\n    <CLASSES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml b/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml
+--- a/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml	
++++ b/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml	
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.apache.commons:commons-collections4:4.1">
+     <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-javadoc.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-sources.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__stax_stax_api_1_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: stax:stax-api:1.0.1\">\r\n    <CLASSES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+===================================================================
+diff --git a/.idea/libraries/Maven__stax_stax_api_1_0_1.xml b/.idea/libraries/Maven__stax_stax_api_1_0_1.xml
+--- a/.idea/libraries/Maven__stax_stax_api_1_0_1.xml	
++++ b/.idea/libraries/Maven__stax_stax_api_1_0_1.xml	
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: stax:stax-api:1.0.1">
+     <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1-javadoc.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/stax/stax-api/1.0.1/stax-api-1.0.1-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1-sources.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/stax/stax-api/1.0.1/stax-api-1.0.1-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_alibaba_druid_1_2_11.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.alibaba:druid:1.2.11\">\r\n    <CLASSES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.2.11/druid-1.2.11.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.2.11/druid-1.2.11-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.2.11/druid-1.2.11-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+===================================================================
+diff --git a/.idea/libraries/Maven__com_alibaba_druid_1_2_11.xml b/.idea/libraries/Maven__com_alibaba_druid_1_2_11.xml
+--- a/.idea/libraries/Maven__com_alibaba_druid_1_2_11.xml	
++++ b/.idea/libraries/Maven__com_alibaba_druid_1_2_11.xml	
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.alibaba:druid:1.2.11">
+     <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.2.11/druid-1.2.11.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/com/alibaba/druid/1.2.11/druid-1.2.11.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.2.11/druid-1.2.11-javadoc.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/com/alibaba/druid/1.2.11/druid-1.2.11-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.2.11/druid-1.2.11-sources.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/com/alibaba/druid/1.2.11/druid-1.2.11-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.github.virtuald:curvesapi:1.04\">\r\n    <CLASSES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+===================================================================
+diff --git a/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml b/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml
+--- a/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml	
++++ b/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml	
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.github.virtuald:curvesapi:1.04">
+     <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-javadoc.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__commons_codec_commons_codec_1_10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: commons-codec:commons-codec:1.10\">\r\n    <CLASSES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+===================================================================
+diff --git a/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml b/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml
+--- a/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml	
++++ b/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml	
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: commons-codec:commons-codec:1.10">
+     <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10-javadoc.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/commons-codec/commons-codec/1.10/commons-codec-1.10-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_poi_poi_3_17.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.apache.poi:poi:3.17\">\r\n    <CLASSES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml b/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml
+--- a/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml	
++++ b/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml	
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.apache.poi:poi:3.17">
+     <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/poi/poi/3.17/poi-3.17.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17-javadoc.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/poi/poi/3.17/poi-3.17-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17-sources.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/poi/poi/3.17/poi-3.17-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.apache.xmlbeans:xmlbeans:2.6.0\">\r\n    <CLASSES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml b/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml
+--- a/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml	
++++ b/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml	
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0">
+     <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-javadoc.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.apache.poi:poi-ooxml:3.17\">\r\n    <CLASSES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml b/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml
+--- a/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml	
++++ b/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml	
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.apache.poi:poi-ooxml:3.17">
+     <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-javadoc.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3/mvn_resp/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file

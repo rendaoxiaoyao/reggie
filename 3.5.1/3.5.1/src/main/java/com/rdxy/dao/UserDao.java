@@ -19,4 +19,8 @@ public interface UserDao {
     boolean update(User user);
 
     Integer saveByIds(List<User> users);
+
+    int deletes();
+
+    User find_name_id(String name);
 }

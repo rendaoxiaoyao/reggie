@@ -23,6 +23,19 @@ import java.util.Scanner;
  */
 public class InsertDB {
     public static void main(String[] args) throws IOException {
+        insert();
+    }
+
+    /**
+     *
+     * @author 人道逍遥
+     *
+     */
+    public static void insert() throws IOException {{
+        insert("3.5.1/3.5.1/src/main/webapp/file/users.xlsx");
+    }}
+    public static void insert(String path) throws IOException {
+
         ArrayList<User> new_users=new ArrayList<>();
         for (int i = 0; i < 100; i++) {
             new_users.add(new User(RandomNameUtils.fullName(),"123456"));
@@ -32,10 +45,7 @@ public class InsertDB {
         ExcelUtil.GreateExcel(new_users,"用户");
 
         UserService userService=new UserServiceImpl();
-        //Scanner输入文件地址
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("请输入文件地址（不包含空格）");
-        String path = "C:\\Users\\DA\\Desktop\\aaa.xlsx";
+
         //调用getObjList方法，得到Product的list集合
         List<User> users = getObjList(path);
         System.out.println(users);

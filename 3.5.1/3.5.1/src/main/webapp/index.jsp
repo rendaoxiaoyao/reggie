@@ -14,7 +14,7 @@
 <body>
 <div class="div_1">
   <button id="add">增加</button><br>
-  <button id="delete">删除</button><br>
+  <button id="logout">退出</button><br>
   <button id="update">修改</button><br>
   <button id="select">查询</button><br>
 </div>
@@ -25,8 +25,8 @@
   document.getElementById('add').addEventListener('click',function () {
     location.href="/3.5.1/page/insert.jsp"
   })
-  document.getElementById('delete').addEventListener('click',function () {
-    location.href="/3.5.1/page/delete.jsp"
+  document.getElementById('logout').addEventListener('click',function () {
+    location.href="/3.5.1/LogoutServlet"
   })
   document.getElementById('update').addEventListener('click',function () {
     location.href="/3.5.1/page/update.jsp"
