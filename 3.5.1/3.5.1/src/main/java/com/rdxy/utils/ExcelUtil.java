@@ -54,7 +54,7 @@ public class ExcelUtil {
 
 
         //5. 通过输出流将对象下载到磁盘
-        FileOutputStream fileOutputStream = new FileOutputStream("C:\\Users\\人道逍遥\\Desktop\\users.xlsx");
+        FileOutputStream fileOutputStream = new FileOutputStream("D:\\users.xlsx");
         workbook.write(fileOutputStream);
         //刷新输出流
         fileOutputStream.flush();
