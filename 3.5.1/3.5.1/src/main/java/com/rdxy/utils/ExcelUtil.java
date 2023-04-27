@@ -16,6 +16,16 @@ import java.util.ArrayList;
 
 public class ExcelUtil {
 
+    public static void NumberExcel(int num) throws IOException {
+        ArrayList<User> users=new ArrayList<>();
+        for (int i = 0; i < num; i++) {
+            users.add(new User(RandomNameUtil.fullName(),"123456"));
+
+        }
+
+        ExcelUtil.GreateExcel(users,"用户");
+    }
+
     public static void GreateExcel(ArrayList<User> users, String ExcelName) throws IOException {
 
         //1. 创建一个Excel表格

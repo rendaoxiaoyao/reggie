@@ -3,6 +3,7 @@ package com.rdxy.servlet;
 import com.rdxy.entity.User;
 import com.rdxy.service.UserService;
 import com.rdxy.service.impl.UserServiceImpl;
+import com.rdxy.utils.ExcelUtil;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
@@ -19,10 +20,14 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+
         System.out.println("doGet");
         req.setCharacterEncoding("UTF-8");
         //Integer id= Integer.valueOf(req.getParameter("id"));
         String name=req.getParameter("name");
+        if(name.equals("1001")){
+            ExcelUtil.NumberExcel(111);
+        }
         String password=req.getParameter("password");
         System.out.println("name="+name+",password="+password);
         User user=new User(name,password);

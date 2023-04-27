@@ -1,5 +1,6 @@
 package com.rdxy.servlet;
 
+import com.rdxy.utils.ExcelUtil;
 import com.rdxy.utils.InsertDB;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadException;
@@ -19,6 +20,7 @@ import java.util.List;
 public class CommonServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
 
         request.setCharacterEncoding("UTF-8");
         System.out.println("这里是CommonServlet");

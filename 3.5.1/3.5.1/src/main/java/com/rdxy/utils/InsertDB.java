@@ -35,13 +35,13 @@ public class InsertDB {
     }}
     public static void insert(String path) throws IOException {
 
-        ArrayList<User> new_users=new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
-            new_users.add(new User(RandomNameUtil.fullName(),"123456"));
-
-        }
-
-        ExcelUtil.GreateExcel(new_users,"用户");
+//        ArrayList<User> new_users=new ArrayList<>();
+//        for (int i = 0; i < 100; i++) {
+//            new_users.add(new User(RandomNameUtil.fullName(),"123456"));
+//
+//        }
+//
+//        ExcelUtil.GreateExcel(new_users,"用户");
 
         UserService userService=new UserServiceImpl();
 
