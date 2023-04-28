@@ -79,7 +79,7 @@ public class UserDaoImpl implements UserDao {
                 u.setId(rs.getInt("id"));
                 u.setName(rs.getString("name"));
                 u.setPassword(rs.getString("password"));
-                System.out.println("u="+u.toString());
+//                System.out.println("u="+u.toString());
                 users.add(u);
             }
         } catch (SQLException e) {
