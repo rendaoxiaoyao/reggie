@@ -7,10 +7,10 @@ public class Dbconn {
 	private Connection conn;
 	public  Connection getConnection() throws SQLException{
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/mydatabase","root","123456");
 		} catch (ClassNotFoundException e) {
-			System.out.println("�Ҳ������񣡣�");
+			System.out.println("??????????");
 			e.printStackTrace();
 		}
 		return conn;

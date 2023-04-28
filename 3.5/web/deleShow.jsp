@@ -7,7 +7,7 @@
   </head>
   <body>
     <%
-    int id=Integer.parseInt(request.getParameter("id"));
+    int id=(int) request.getParameter("id");
      Model model=new Model();
 	%>
 	删除完成，请查看删除后的结果

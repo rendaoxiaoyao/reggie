@@ -1,7 +1,6 @@
 <%@ page import="com.rdxy.model.Model" %>
 <%@ page import="com.rdxy.entity.User" %>
 <%@ page import="java.util.ArrayList" %>
-
 <%@ page language="java" pageEncoding="utf-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
