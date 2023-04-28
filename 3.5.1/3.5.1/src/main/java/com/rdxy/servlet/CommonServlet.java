@@ -64,6 +64,7 @@ public class CommonServlet extends HttpServlet {
                             System.out.println("上传成功");
 
                             if(fileName.split("\\.")[1].equals("xlsx")){
+                                System.out.println("数据批量导入路径："+path);
                                 InsertDB.insert(path);
                             }
 
