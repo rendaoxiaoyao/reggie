@@ -23,16 +23,16 @@
 
 <script>
     document.getElementById('add').addEventListener('click',function () {
-        location.href="/3.5.1/page/insert.jsp"
+        location.href="/6.3/page/insert.jsp"
     })
     document.getElementById('logout').addEventListener('click',function () {
-        location.href="/3.5.1/LogoutServlet"
+        location.href="/6.3/LogoutServlet"
     })
     document.getElementById('update').addEventListener('click',function () {
-        location.href="/3.5.1/page/update.jsp"
+        location.href="/6.3/page/update.jsp"
     })
     document.getElementById('select').addEventListener('click',function () {
-        location.href="/3.5.1/users/UserServlet?method=select"
+        location.href="/6.3/students?method=select&select=all"
     })
 
 </script>

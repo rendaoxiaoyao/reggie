@@ -3,10 +3,7 @@ package com.rdxy.utils;
 import java.io.UnsupportedEncodingException;
 import java.util.Random;
 
-/**
- * @author 向振华
- * @date 2022/04/10 11:35
- */
+
 public class RandomNameUtil {
 
     /**

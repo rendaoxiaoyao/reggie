@@ -10,9 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="导入6.3">
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/css/page/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/images/420.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/images/4201.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/js/page/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/common/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/select.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/InsertDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/InsertDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/RandomNameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/RandomNameUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/insert.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +79,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/6.3/src/main/java/com/rdxy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/6.3/src/main/webapp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
@@ -74,10 +90,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\webapp" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\java\com\rdxy" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\java\com\rdxy\dbutil" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\java\com\rdxy\control" />
-      <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\webapp" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\sql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -190,7 +206,7 @@
       <workItem from="1681981803317" duration="9756000" />
       <workItem from="1682040817177" duration="35619000" />
       <workItem from="1682655268040" duration="2667000" />
-      <workItem from="1683791830033" duration="9721000" />
+      <workItem from="1683791830033" duration="10341000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1682001580993</created>
@@ -339,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683800855015</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="导入6.3">
+      <created>1683801745787</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683801745787</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

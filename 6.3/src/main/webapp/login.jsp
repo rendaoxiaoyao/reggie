@@ -53,7 +53,7 @@
         console.log(name+" "+password)
 
         if(name!=""&&password!=""){
-            location.href="http://localhost:8080/3.5.1/login?name="+name+"&password="+password;
+            location.href="/6.3/login?name="+name+"&password="+password;
         }
 
     })

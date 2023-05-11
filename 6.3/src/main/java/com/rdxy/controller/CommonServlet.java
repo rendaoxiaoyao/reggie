@@ -69,7 +69,7 @@ public class CommonServlet extends HttpServlet {
                                 InsertDB.insert(path);
                             }
 
-                            response.sendRedirect("/3.5.1/Students/StudentServlet?method=select");
+                            response.sendRedirect("/6.3/students?method=select");
                         }
                     }
                 } catch (FileUploadException e) {

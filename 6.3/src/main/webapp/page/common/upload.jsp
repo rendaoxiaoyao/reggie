@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: 人道逍遥
-  Date: 2023/4/21
-  Time: 11:46
+  Date: 2023/4/26
+  Time: 13:13
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -13,7 +13,7 @@
     <title>增加</title>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="/src/main/webapp/css/common.css">
     <style>
         #button{
             width: 80px;
@@ -23,33 +23,27 @@
 <body>
 <div class="div_1">
 
-    <form action="/3.5.1/RegisterServlet?method=user" method="post">
+    <form action="/3.5.1/CommonServlet?method=upload" method="post" enctype="multipart/form-data">
 
-        请输入姓名：   <input type="text" id="name" name="name"><br/>
-        请输入密码：   <input type="text" id="password" name="password"><br/>
-        <input id="button" type="submit" value="提交" onclick="return add()">
+        批量增加： <input type="file" id="file" name="file"><br/>
+        <input id="button" type="submit" value="提交" onclick="return adds()">
     </form>
-    <br>
 </div>
 
 
 
 <script>
+    function adds() {
+        file=document.getElementById('name').value;
+        console.log(file)
 
-
-
-    function add() {
-        name=document.getElementById('name').value;
-        password=document.getElementById('password').value;
-
-        if(name!=""&&password!=""){
+        if(file!=null&&file!=""){
             console.log("你好啊")
             return true
         }
         return false
 
     }
-
 
 </script>
 <style>
