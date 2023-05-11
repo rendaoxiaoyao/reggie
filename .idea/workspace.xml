@@ -9,27 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="导入6.3">
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/css/page/select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/images/420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/images/4201.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/js/page/select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/common/upload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/select.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/RandomNameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/RandomNameUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/insert.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="导入6.3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,7 +186,7 @@
       <workItem from="1681981803317" duration="9756000" />
       <workItem from="1682040817177" duration="35619000" />
       <workItem from="1682655268040" duration="2667000" />
-      <workItem from="1683791830033" duration="10341000" />
+      <workItem from="1683791830033" duration="11207000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1682001580993</created>
@@ -362,7 +342,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683801745787</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="导入6.3">
+      <created>1683802458242</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683802458242</updated>
+    </task>
+    <task id="LOCAL-00024" summary="导入6.3">
+      <created>1683802485564</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683802485564</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
