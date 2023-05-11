@@ -10,8 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="导入6.3">
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/page/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/page/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/page/common/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/common/upload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/page/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/page/select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/select.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/page/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/update.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +192,7 @@
       <workItem from="1681981803317" duration="9756000" />
       <workItem from="1682040817177" duration="35619000" />
       <workItem from="1682655268040" duration="2667000" />
-      <workItem from="1683791830033" duration="11502000" />
+      <workItem from="1683791830033" duration="13193000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1682001580993</created>
@@ -366,7 +369,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683803348946</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="导入6.3">
+      <created>1683803445770</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1683803445770</updated>
+    </task>
+    <task id="LOCAL-00027" summary="导入6.3">
+      <created>1683803466627</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1683803466627</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

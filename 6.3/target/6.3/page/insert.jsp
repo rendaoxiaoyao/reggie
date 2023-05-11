@@ -23,39 +23,30 @@
 <body>
 <div class="div_1">
 
-    <form action="/3.5.1/users/UserServlet?method=add" method="post">
+    <form action="/6.3/users/UserServlet?method=add" method="post">
 
         请输入姓名：   <input type="text" id="name" name="name"><br/>
-        请输入密码：   <input type="text" id="password" name="password"><br/>
+        请输入性别：   <input type="text" id="sex" name="name"><br/>
+        请输入年龄：   <input type="text" id="age" name="name"><br/>
+        请输入班级：   <input type="text" id="grade" name="name"><br/>
+        请输入成绩：   <input type="text" id="score" name="name"><br/>
+
         <input id="button" type="submit" value="提交" onclick="return add()">
     </form>
     <br>
-    <button id="upload" onclick="upload()" style="display: none">批量增加</button>
+    <button id="upload" onclick="upload()">批量增加</button>
 </div>
 
 
 
 <script>
 
-<%--    <%--%>
-<%--    User user=(User) request.getSession().getAttribute("user");--%>
-<%--    if(user==null||user.getId()!=1001){--%>
-<%--    %>--%>
-<%--    document.getElementById('upload').style.display='none';--%>
-<%--    <%--%>
-<%--    }else{--%>
-<%--     %>--%>
-<%--    document.getElementById('upload').style.display='';--%>
-<%--    <%--%>
-
-<%--    }--%>
-<%--    %>--%>
 
     function add() {
         name=document.getElementById('name').value;
-        password=document.getElementById('password').value;
 
-        if(name!=""&&password!=""){
+
+        if(name!=""){
             console.log("你好啊")
             return true
         }

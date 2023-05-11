@@ -53,7 +53,13 @@ To change this template use File | Settings | File Templates.
 <table align="center" border="2" cellpadding="15px" cellspacing="0">
     <thead>
     <tr>
-        <th>id</th> <th>姓名</th> <th>密码</th><th>操作</th>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>年龄</th>
+        <th>班级</th>
+        <th>成绩</th>
+        <th>操作</th>
     </tr>
     </thead>
 </table>
@@ -62,14 +68,17 @@ To change this template use File | Settings | File Templates.
 
     <tbody>
 
-    <c:forEach items="${list}" var="user">
+    <c:forEach items="${list}" var="student">
         <tr>
-            <td>${user.id}</td>
-            <td>${user.name}</td>
-            <td>${user.password}</td>
+            <td>${student.id}</td>
+            <td>${student.name}</td>
+            <td>${student.sex}</td>
+            <td>${student.age}</td>
+            <td>${student.grade}</td>
+            <td>${student.score}</td>
 
-            <td><button id="delete" onclick="UserDelete(${user.id})">删除</button>
-                <button id="update" onclick="UserUpdate(${user.id})">修改</button></td>
+            <td><button id="delete" onclick="UserDelete(${student.id})">删除</button>
+                <button id="update" onclick="UserUpdate(${student.id})">修改</button></td>
 
         </tr>
     </c:forEach>

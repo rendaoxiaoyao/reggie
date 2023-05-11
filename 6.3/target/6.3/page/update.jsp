@@ -17,30 +17,16 @@
     <link rel="stylesheet" type="text/css" href="../css/common.css">
 </head>
 <body>
+<form action="/6.3/students?method=update" method="post">
+    编号：    <input type="text"name="id" value="${student.id}" readonly = "readonly"><br/>
+    姓名：   <input type="text" name="name" value="${student.name}" ><br/>
+    性别：   <input type="text" name="sex" value="${student.sex}" ><br/>
+    年龄：   <input type="text" name="age" value="${student.age}" ><br/>
+    班级：   <input type="text" name="grade" value="${student.grade}" ><br/>
+    成绩：   <input type="text" name="score" value="${student.score}" ><br/>
 
-
-        请输入id：    <input type="text" id="id" value="${user.id}" readonly = "readonly"><br/>
-    请输入姓名：   <input type="text" id="name" value="${user.name}"><br/>
-    请输入密码：   <input type="text" id="password" value="${user.password}"><br/>
-    <input type="button" value="提交" onclick="update()">
-
-<script>
-
-    function update() {
-        id=document.getElementById("id").value;
-        name=document.getElementById("name").value;
-        password=document.getElementById("password").value;
-
-        console.log("id="+id+"\tname="+name+"\tpassword="+password)
-
-        if(name==null||name==""||password==null||password==""){
-            return;
-        }
-        location.href="/3.5.1/users/UserServlet?method=update&id="+id+"&name="+name+"&password="+password;
-
-    }
-
-</script>
+    <input id="button" type="submit" value="提交">
+</form>
 
 </body>
 </html>
