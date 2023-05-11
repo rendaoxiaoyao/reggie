@@ -3,13 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/3.5.1/3.5.1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/6.3/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/DeleteServlet.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/DoUpdateServlet.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/InsertServlet.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/ListStudentServlet.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/ShowStudentServlet.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/UpdateServlet.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/Dbconn.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/DeleteServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/DoUpdateServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/InsertServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/ListStudentServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/ShowStudentServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/UpdateServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/Dbconn.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/6.3/src/main/resources" charset="UTF-8" />
   </component>
 </project>

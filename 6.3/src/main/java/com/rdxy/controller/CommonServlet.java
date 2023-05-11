@@ -1,6 +1,6 @@
-package com.rdxy.control;
+package com.rdxy.controller;
 
-import com.rdxy.dbutil.InsertDB;
+import com.rdxy.utils.InsertDB;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;

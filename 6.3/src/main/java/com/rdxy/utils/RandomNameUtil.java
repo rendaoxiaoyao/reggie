@@ -1,4 +1,4 @@
-package com.rdxy.dbutil;
+package com.rdxy.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Random;

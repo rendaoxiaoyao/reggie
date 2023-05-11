@@ -2,7 +2,7 @@ package com.rdxy.model;
 
 
 
-import com.rdxy.dbutil.Dbconn;
+import com.rdxy.utils.Dbconn;
 import com.rdxy.entity.User;
 
 import java.sql.*;

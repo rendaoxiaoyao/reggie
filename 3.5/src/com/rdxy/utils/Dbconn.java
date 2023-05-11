@@ -1,18 +1,14 @@
-package com.rdxy.dbutil;
+package com.rdxy.utils;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class Dbconn {
 
-	private static Connection conn;
-	public static Connection getConnection() throws SQLException{
+	private Connection conn;
+	public  Connection getConnection() throws SQLException{
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/students","root","123456");
+			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/mydatabase","root","123456");
 		} catch (ClassNotFoundException e) {
 			System.out.println("??????????");
 			e.printStackTrace();
@@ -20,7 +16,7 @@ public class Dbconn {
 		return conn;
 	}
 
-	public static void closeAll(Connection conn, Statement stat, ResultSet rs){
+	public void closeAll(Connection conn,Statement stat,ResultSet rs){
 		if(rs!=null){
 			try {
 				rs.close();
@@ -45,4 +41,5 @@ public class Dbconn {
 			}
 		}
 	}
+
 }

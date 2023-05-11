@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebFilter(urlPatterns = {"/students/*", "/index.jsp" ,"/page/*"})
+//@WebFilter(urlPatterns = {"/students/*", "/index.jsp" ,"/page/*"})
 
 public class StudentFilter implements Filter {
     @Override
@@ -33,7 +33,7 @@ public class StudentFilter implements Filter {
 
 
 
-        Object Student = request.getSession().getAttribute("Student");
+        Object Student = request.getSession().getAttribute("admin");
         if(Student==null){
             response.sendRedirect("/6.3/login.jsp");
             return;

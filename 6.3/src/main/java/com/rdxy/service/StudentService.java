@@ -6,16 +6,13 @@ import java.util.List;
 
 public interface StudentService {
 
-    public boolean insert(Student Student);
-    public boolean delete(int id);
-    public boolean delete(int[] ids);
-    public boolean update(Student Student);
-    public Student getById(Student Student);
-    public List<Student> getAll(String msg);
+    boolean insert(Student Student);
+    boolean delete(int id);
+    boolean update(Student Student);
+    Student getOne(String id);
+    List<Student> getAll(String msg);
 
-    Integer saveByIds(List<Student> objList);
+    Integer saveByIds(List<Student> list);
 
-    int deletes();
 
-    Student find_name_id(String name);
 }

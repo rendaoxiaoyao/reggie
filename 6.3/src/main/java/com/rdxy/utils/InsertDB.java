@@ -1,4 +1,4 @@
-package com.rdxy.dbutil;
+package com.rdxy.utils;
 
 
 import com.rdxy.entity.Student;
@@ -13,12 +13,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author : 尚腾飞
- * @version : 1.0
- * @createTime : 2022/9/26 20:48
- * @description : 将Excel表中的数据添加到数据库
- */
+
 public class InsertDB {
     public static void main(String[] args) throws IOException {
         insert();

@@ -1,7 +1,5 @@
-package com.rdxy.control;
+package com.rdxy.controller;
 
-import com.rdxy.dbutil.ExcelUtil;
-import com.rdxy.entity.Student;
 import com.rdxy.service.StudentService;
 import com.rdxy.service.impl.StudentServiceImpl;
 
@@ -14,17 +12,22 @@ import java.io.IOException;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
-    private StudentService StudentService=new StudentServiceImpl();
-
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-
         System.out.println("doGet");
         req.setCharacterEncoding("UTF-8");
 
-        req.getRequestDispatcher("/index.jsp").forward(req,resp);
+        String name = req.getParameter("name");
+        String password=req.getParameter("password");
+
+        if(name.equals("1001")&&password.equals("123456")){
+            req.getSession().setAttribute("admin",name);
+            req.getRequestDispatcher("/index.jsp").forward(req,resp);
+            return;
+        }
+        req.getRequestDispatcher("/login.jsp").forward(req,resp);
+
         return;
 
     }

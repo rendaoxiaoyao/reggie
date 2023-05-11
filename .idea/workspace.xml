@@ -10,23 +10,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="导入6.3">
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/CommonServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/impl/StudentDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/InsertDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/MyTestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/RandomNameUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/DButil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/Dbconn.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/Dbconn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.5/src/com/rdxy/dbutil/Dbconn.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/src/com/rdxy/utils/Dbconn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.5/src/com/rdxy/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/src/com/rdxy/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/CommonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/CommonServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/DeleteServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/DoUpdateServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/InsertServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/ListStudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/RegisterServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/ShowStudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/control/UpdateServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/impl/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/Dbconn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/InsertDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/InsertDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/MyTestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/MyTestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dbutil/RandomNameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/RandomNameUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/entity/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/filter/StudentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/filter/StudentFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/model/StudentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/model/StudentModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/jsp/studentinsert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/jsp/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/jsp/studentlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/jsp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/jsp/studentshow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/jsp/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/jsp/studentupdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/jsp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/dbutil/Dbconn.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/dbutil/Dbconn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/filter/StudentFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/filter/StudentFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/model/StudentModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/model/StudentModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/filter/StudentFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/filter/StudentFilter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +121,7 @@
       <recent name="D:\2001\2023\workspace\SoftwareEngineering\3.5.1\3.5.1\src\main\java\com\rdxy\filter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rdxy.dbutil" />
       <recent name="com.rdxy.filter" />
     </key>
   </component>
@@ -203,7 +226,7 @@
       <workItem from="1681981803317" duration="9756000" />
       <workItem from="1682040817177" duration="35619000" />
       <workItem from="1682655268040" duration="2667000" />
-      <workItem from="1683791830033" duration="4840000" />
+      <workItem from="1683791830033" duration="8661000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1682001580993</created>
@@ -331,7 +354,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683795866917</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="导入6.3">
+      <created>1683797048052</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1683797048052</updated>
+    </task>
+    <task id="LOCAL-00020" summary="导入6.3">
+      <created>1683797337403</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683797337403</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

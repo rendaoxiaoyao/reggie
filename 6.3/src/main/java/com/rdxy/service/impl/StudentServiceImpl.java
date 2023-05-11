@@ -9,51 +9,39 @@ import java.util.List;
 
 public class StudentServiceImpl implements StudentService {
 
-    private StudentDao StudentDao=new StudentDaoImpl();
+    private StudentDao dao=new StudentDaoImpl();
 
     @Override
     public boolean insert(Student Student) {
-        return StudentDao.insert(Student);
+        return dao.insert(Student);
     }
 
     @Override
     public boolean delete(int id) {
-        return StudentDao.deleteById(id);
-    }
-
-    @Override
-    public boolean delete(int[] ids) {
-        return StudentDao.deleteByIds(ids);
+        return dao.delete(id);
     }
 
     @Override
     public boolean update(Student Student) {
 
-        return StudentDao.update(Student);
+        return dao.update(Student);
     }
 
     @Override
-    public Student getById(Student Student) {
-        return StudentDao.getById(Student);
+    public Student getOne(String id) {
+        return dao.getOne(id);
     }
+
 
     @Override
     public List<Student> getAll(String msg) {
-        return StudentDao.getAll(msg);
+        return dao.getAll(msg);
     }
 
     @Override
     public Integer saveByIds(List<Student> Students) {
-        return StudentDao.saveByIds(Students);
+        return dao.saveByIds(Students);
     }
 
-    @Override
-    public int deletes() {
-        return StudentDao.deletes();
-    }
 
-    @Override
-    public Student find_name_id(String name) {
-        return StudentDao.find_name_id(name);
-    }
 }
