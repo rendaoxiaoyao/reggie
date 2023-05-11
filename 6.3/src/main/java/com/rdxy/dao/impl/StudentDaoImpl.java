@@ -96,7 +96,7 @@ public class StudentDaoImpl implements StudentDao {
             String sql="select * from student ";
             if(msg!=null&&msg!=""){
                 if(msg.matches("^[0-9]+$")){
-                    sql="select * from student where id like %"+msg+"%";
+                    sql="select * from student where id like '%"+msg+"%'";
                 }else{
                     sql="select * from student where name like '%"+msg+"%'";
                 }
