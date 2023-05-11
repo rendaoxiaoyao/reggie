@@ -5,14 +5,15 @@ import com.rdxy.model.StudentModel;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+@WebServlet("/students/InsertServlet")
+public class InsertServlet extends HttpServlet {
 
-public class Insertservlet extends HttpServlet {
-
-	public Insertservlet() {
+	public InsertServlet() {
 		super();
 	}
 
@@ -28,7 +29,7 @@ public class Insertservlet extends HttpServlet {
 
      		StudentModel model = new StudentModel();
 	 	    model.insert(id, name, sex, age, grade, score);
-	 	    response.sendRedirect("ListStudentServlet.do");
+	 	    response.sendRedirect("/students/ListStudentServlet");
 	}
 
 }

@@ -6,17 +6,18 @@ import com.rdxy.model.StudentModel;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
-public class Updateservlet extends HttpServlet {
+@WebServlet("/students/UpdateServlet")
+public class UpdateServlet extends HttpServlet {
 
 	/**
 	 * Constructor of the object.
 	 */
-	public Updateservlet() {
+	public UpdateServlet() {
 		super();
 	}
 
@@ -39,7 +40,7 @@ public class Updateservlet extends HttpServlet {
 				return ;
 			}
 			Integer studentId = Integer.valueOf(id);
-			// ???¨°??????????????????
+			// ???????????????????????
      		StudentModel model = new StudentModel();
 
 			Student student = model.load(studentId);
