@@ -66,8 +66,8 @@ To change this template use File | Settings | File Templates.
 </table>
 <style>
     img{
-        width: 110px;
-        height: 100px;
+        width: 150px;
+        height: 140px;
         object-fit: contain;
     }
 </style>
