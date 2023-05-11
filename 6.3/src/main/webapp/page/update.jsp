@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="../css/common.css">
 </head>
 <body>
-<form action="/6.3/students?method=update" method="post">
+<form action="/6.3/students?method=update" method="post" enctype="multipart/form-data">
     编号：    <input type="text"name="id" value="${student.id}" readonly = "readonly"><br/>
     姓名：   <input type="text" name="name" value="${student.name}" ><br/>
     性别：   <input type="text" name="sex" value="${student.sex}" ><br/>
@@ -25,6 +25,7 @@
     班级：   <input type="text" name="grade" value="${student.grade}" ><br/>
     成绩：   <input type="text" name="score" value="${student.score}" ><br/>
 
+    头像： <input type="file" id="file" name="file"><br/>
     <input id="button" type="submit" value="提交">
 </form>
 

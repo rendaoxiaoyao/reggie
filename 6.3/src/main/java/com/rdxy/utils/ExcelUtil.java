@@ -39,12 +39,12 @@ public class ExcelUtil {
         cell2.setCellValue("姓名");
         XSSFCell cell3 = row.createCell(2);
         cell3.setCellValue("性别");
-        XSSFCell cell4 = row.createCell(2);
-        cell3.setCellValue("年龄 ");
-        XSSFCell cell5 = row.createCell(2);
-        cell3.setCellValue("班级");
-        XSSFCell cell6 = row.createCell(2);
-        cell3.setCellValue("成绩");
+        XSSFCell cell4 = row.createCell(3);
+        cell4.setCellValue("年龄 ");
+        XSSFCell cell5 = row.createCell(4);
+        cell5.setCellValue("班级");
+        XSSFCell cell6 = row.createCell(5);
+        cell6.setCellValue("成绩");
 
 
         int start_len=1001;
@@ -63,13 +63,13 @@ public class ExcelUtil {
             cell3 = row.createCell(2);
             cell3.setCellValue(list.get(i).getSex());
 
-            cell4 = row.createCell(2);
+            cell4 = row.createCell(3);
             cell4.setCellValue(list.get(i).getAge());
 
-            cell5 = row.createCell(2);
+            cell5 = row.createCell(4);
             cell5.setCellValue(list.get(i).getGrade());
 
-            cell6 = row.createCell(2);
+            cell6 = row.createCell(5);
             cell6.setCellValue(list.get(i).getScore());
 
 

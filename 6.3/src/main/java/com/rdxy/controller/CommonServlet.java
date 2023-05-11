@@ -1,16 +1,17 @@
 package com.rdxy.controller;
 
+import com.rdxy.entity.Student;
+import com.rdxy.service.StudentService;
+import com.rdxy.service.impl.StudentServiceImpl;
 import com.rdxy.utils.InsertDB;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -19,6 +20,8 @@ import java.util.List;
 
 @WebServlet(name = "CommonServlet", value = "/CommonServlet")
 public class CommonServlet extends HttpServlet {
+    private StudentService service=new StudentServiceImpl();
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -47,8 +50,15 @@ public class CommonServlet extends HttpServlet {
                             InputStream inputStream = fileItem.getInputStream();
 // Reader reader = new InputStreamReader(inputStream);
 // BufferedReader bufferedReader = new BufferedReader(reader);
+
+                            String str="file";
+                            if(fileName.split("\\.")[1].equals("jpg")||fileName.split("\\.")[1].equals("png")){
+                                String id=request.getParameter("id");
+                                service.update(new Student(Integer.parseInt(id),"./images/"+fileName));
+                                str="images";
+                            }
                             String path =
-                                    request.getServletContext().getRealPath("file/"+fileName);
+                                    request.getServletContext().getRealPath(str+"/"+fileName);
                             OutputStream outputStream = new FileOutputStream(path);
 // Writer writer = new OutputStreamWriter(outputStream);
 // BufferedWriter bufferedWriter = new BufferedWriter(writer);

@@ -39,7 +39,12 @@ public class Student {
 		this.score = score;
 	}
 
-	/**
+    public Student(Integer id, String file) {
+		this.id=id;
+		this.file=file;
+    }
+
+    /**
 	 * 获取
 	 * @return id
 	 */

@@ -13,7 +13,7 @@ public class MyTestUtil {
 
         }
 
-        ExcelUtil.GreateExcel(lists,"用户");
+        ExcelUtil.GreateExcel(lists,"学生");
 
     }
 }

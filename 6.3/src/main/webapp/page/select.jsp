@@ -86,7 +86,8 @@ To change this template use File | Settings | File Templates.
             <td>${student.score}</td>
 
             <td><button id="delete" onclick="StudentDelete(${student.id})">删除</button>
-                <button id="update" onclick="StudentUpdate(${student.id})">修改</button></td>
+                <button id="update" onclick="StudentUpdate(${student.id})">修改</button>
+            </td>
 
         </tr>
     </c:forEach>

@@ -69,7 +69,7 @@ public class InsertDB {
                     }
                 }
                 //将每一行的内容封装为一个实体类
-                Student  Student = new Student(Integer.parseInt(list.get(0)),list.get(1),list.get(2),Integer.parseInt(list.get(3)),list.get(4),Integer.parseInt(list.get(5)));
+                Student  Student = new Student((int) Double.parseDouble(list.get(0)),list.get(1),list.get(2),(int) Double.parseDouble(list.get(3)),list.get(4),(int) Double.parseDouble(list.get(5)));
                 //将每一个实体类加入到productList中
                 lists.add(Student);
             }

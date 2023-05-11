@@ -69,6 +69,9 @@ public class StudentDaoImpl implements StudentDao {
             String sql="update student set name=" +
                     "'"+student.getName()+"',sex='"+student.getSex()+"',age="+student.getAge()+",grade='"+student.getGrade()+"',score="+student.getScore()+" where id="+student.getId()+";";
 
+            if(student.getFile()!=null){
+                sql="update student set file="+student.getFile()+" where id="+student.getId();
+            }
             System.out.println(sql);
 
             ps=connection.prepareStatement(sql);
