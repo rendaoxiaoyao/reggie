@@ -8,6 +8,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.util.List;
 
 @WebServlet(name = "StudentServlet", value = "/students")
 public class StudentServlet extends HttpServlet {
@@ -16,38 +17,26 @@ public class StudentServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("students");
         String method=request.getParameter("method");
-
+        System.out.println(method);
         switch (method){
-
             case "insert":
-
                 insert(request,response);
-
                 break;
-
             case "delete":
-
                 delete(request,response);
-
                 break;
             case "update":
-
                 update(request,response);
-
                 break;
             case "select":
-
                 select(request,response);
-
                 break;
-
             default:
-
                 break;
         }
-
-
+        select(request,response);
     }
 
     @Override
@@ -89,26 +78,24 @@ public class StudentServlet extends HttpServlet {
 
     }
 
-    private void select(HttpServletRequest request, HttpServletResponse response) {
+    private void select(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String select = request.getParameter("select");
         select=select==null?"all":select;
 
         switch (select){
             case "one":
                 String id=request.getParameter("id");
-
                 Student student=service.getOne(id);
-
+                request.setAttribute("student",student);
                 break;
 
             case "all":
                 String msg=request.getParameter("msg");
-                service.getAll(msg);
-
+                List<Student> list = service.getAll(msg);
+                request.setAttribute("list",list);
                 break;
         }
-
-
+        request.getRequestDispatcher("/page/select.jsp").forward(request,response);
     }
 
 

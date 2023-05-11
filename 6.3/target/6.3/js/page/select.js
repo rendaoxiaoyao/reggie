@@ -1,25 +1,20 @@
-
-
-function UserDelete(id) {
+function StudentDelete(id) {
     alert(123)
     console.log(id)
-    location.href="/3.5.1/users/UserServlet?id="+id+"&method=delete"
+    location.href="./students?id="+id+"&method=delete"
 }
-function UserDeletes() {
-    location.href="/3.5.1/users/UserServlet?method=delete"
 
-}
-function UserUpdate(id) {
+function StudentUpdate(id) {
     console.log(id)
-    location.href="/3.5.1/users/UserServlet?id="+id+"&method=update&get=get"
+    location.href="./students?id="+id+"&method=update"
 }
 function select() {
     msg=document.getElementById('msg').value;
     console.log(msg);
-    location.href="/3.5.1/users/UserServlet?method=select&msg="+msg;
+    location.href="./students?method=select&msg="+msg;
 }
 function add() {
-    location.href="/3.5.1/page/insert.jsp"
+    location.href="./page/insert.jsp"
 }
 
 

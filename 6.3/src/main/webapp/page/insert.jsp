@@ -23,13 +23,13 @@
 <body>
 <div class="div_1">
 
-    <form action="/6.3/users/UserServlet?method=add" method="post">
+    <form action="/6.3/students?method=insert" method="post">
 
         请输入姓名：   <input type="text" id="name" name="name"><br/>
-        请输入性别：   <input type="text" id="sex" name="name"><br/>
-        请输入年龄：   <input type="text" id="age" name="name"><br/>
-        请输入班级：   <input type="text" id="grade" name="name"><br/>
-        请输入成绩：   <input type="text" id="score" name="name"><br/>
+        请输入性别：   <input type="text" id="sex" name="sex"><br/>
+        请输入年龄：   <input type="text" id="age" name="age"><br/>
+        请输入班级：   <input type="text" id="grade" name="grade"><br/>
+        请输入成绩：   <input type="text" id="score" name="score"><br/>
 
         <input id="button" type="submit" value="提交" onclick="return add()">
     </form>

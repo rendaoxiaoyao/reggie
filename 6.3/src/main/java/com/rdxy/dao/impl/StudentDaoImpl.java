@@ -19,12 +19,14 @@ public class StudentDaoImpl implements StudentDao {
 
     ResultSet rs=null;
     @Override
-    public boolean insert(Student Student) {
+    public boolean insert(Student student) {
 
         int flag=0;
         try {
             connection=DButil.getConnection();
-            String sql=null;//String sql="insert into student(name,Sex) values ('"+Student.getName()+"','"+Student.getSex()+"')";
+            String sql="insert into student(name,sex,age,grade,score) value (" +
+                    "'"+student.getName()+"','"+student.getSex()+"',"+student.getAge()+",'"+student.getGrade()+"',"+student.getScore()+");";
+
             System.out.println(sql);
 
             ps=connection.prepareStatement(sql);
@@ -44,7 +46,7 @@ public class StudentDaoImpl implements StudentDao {
         int flag=0;
         try {
             connection=DButil.getConnection();
-            String sql=null;//String sql="delete from student where id="+id;
+            String sql="delete from student where id="+id;
             System.out.println(sql);
 
             ps=connection.prepareStatement(sql);
@@ -64,7 +66,9 @@ public class StudentDaoImpl implements StudentDao {
         boolean flag=false;
         try {
             connection=DButil.getConnection();
-            String sql=null;//String sql="update student set name= '"+student.getName()+"',password='"+user.getPassword()+"' where id="+user.getId();
+            String sql="update student set name=" +
+                    "'"+student.getName()+"',sex='"+student.getSex()+"',age="+student.getAge()+",grade='"+student.getGrade()+"',score="+student.getScore()+");";
+
             System.out.println(sql);
 
             ps=connection.prepareStatement(sql);
@@ -89,12 +93,12 @@ public class StudentDaoImpl implements StudentDao {
 
         try {
             connection=DButil.getConnection();
-            String sql=null;//String sql="select * from student ";
+            String sql="select * from student ";
             if(msg!=null&&msg!=""){
                 if(msg.matches("^[0-9]+$")){
-                    //sql="select * from student where id like '%"+msg+"%'";
+                    sql="select * from student where id like %"+msg+"%";
                 }else{
-                    //sql="select * from student where name like '%"+msg+"%'";
+                    sql="select * from student where name like '%"+msg+"%'";
                 }
 
             }

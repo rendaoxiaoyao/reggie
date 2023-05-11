@@ -32,7 +32,7 @@
         location.href="/6.3/page/update.jsp"
     })
     document.getElementById('select').addEventListener('click',function () {
-        location.href="/6.3/students?method=select&select=all"
+        location.href="/6.3/students?method=select"
     })
 
 </script>

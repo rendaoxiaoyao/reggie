@@ -17,15 +17,14 @@ To change this template use File | Settings | File Templates.
     <meta charset="UTF-8">
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" type="text/css" href="../css/common.css">
-    <link rel="stylesheet" type="text/css" href="../css/page/select.css">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/page/select.css">
 
-
-    <script type="text/javascript" src="../js/page/select.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="./js/page/select.js" charset="UTF-8"></script>
 
     <style type="text/css">
         body{
-            background:url("../images/420.jpg");   /* biu特佛 的背景图片 */
+            background:url("./images/420.jpg");   /* biu特佛 的背景图片 */
             background-size: 100% ;
             color:black;
             font-size: 23px;    /* 文字大小 */
@@ -77,8 +76,8 @@ To change this template use File | Settings | File Templates.
             <td>${student.grade}</td>
             <td>${student.score}</td>
 
-            <td><button id="delete" onclick="UserDelete(${student.id})">删除</button>
-                <button id="update" onclick="UserUpdate(${student.id})">修改</button></td>
+            <td><button id="delete" onclick="StudentDelete(${student.id})">删除</button>
+                <button id="update" onclick="StudentUpdate(${student.id})">修改</button></td>
 
         </tr>
     </c:forEach>
