@@ -7,7 +7,15 @@ public class Student {
 	public String grade;
 	public int age;
 	public float score;
-	public int getId() {
+
+	public Student(){
+
+	}
+
+    public Student(int parseDouble, String s, String s1) {
+    }
+
+    public int getId() {
 		return id;
 	}
 	public void setId(int id) {

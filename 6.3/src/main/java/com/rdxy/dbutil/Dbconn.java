@@ -8,8 +8,8 @@ import java.sql.Statement;
 
 public class Dbconn {
 
-	private Connection conn;
-	public  Connection getConnection() throws SQLException{
+	private static Connection conn;
+	public static Connection getConnection() throws SQLException{
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/students","root","123456");
@@ -20,7 +20,7 @@ public class Dbconn {
 		return conn;
 	}
 
-	public void closeAll(Connection conn,Statement stat,ResultSet rs){
+	public static void closeAll(Connection conn, Statement stat, ResultSet rs){
 		if(rs!=null){
 			try {
 				rs.close();

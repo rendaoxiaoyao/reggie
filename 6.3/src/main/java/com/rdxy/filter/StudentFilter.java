@@ -33,8 +33,8 @@ public class StudentFilter implements Filter {
 
 
 
-        Object user = request.getSession().getAttribute("user");
-        if(user==null){
+        Object Student = request.getSession().getAttribute("Student");
+        if(Student==null){
             response.sendRedirect("/6.3/login.jsp");
             return;
         }
