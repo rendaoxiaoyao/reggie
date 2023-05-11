@@ -39,7 +39,7 @@ public class StudentServlet extends HttpServlet {
             default:
                 break;
         }
-        response.sendRedirect("/students");
+        response.sendRedirect("./students");
     }
 
     @Override

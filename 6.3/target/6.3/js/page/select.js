@@ -10,7 +10,11 @@ function StudentUpdate(id) {
 function select() {
     msg=document.getElementById('msg').value;
     console.log(msg);
-    location.href="./students?method=select&msg="+msg;
+    if(msg==null||msg==""){
+        location.href="./students?method=select";
+    }else{
+        location.href="./students?method=select&msg="+msg;
+    }
 }
 function add() {
     location.href="./page/insert.jsp"
