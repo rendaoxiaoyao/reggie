@@ -41,11 +41,6 @@
         </div>
     </div>
 
-    <!--  注册按钮    -->
-    <div class="register">
-        <button onclick="add()">创建新账号</button>
-    </div>
-
 </div>
 
 <script>
@@ -58,15 +53,10 @@
         console.log(name+" "+password)
 
         if(name!=""&&password!=""){
-            location.href="http://localhost:8080/3.5.1/login?name="+name+"&password="+password;
+            location.href="/6.3/login?name="+name+"&password="+password;
         }
 
     })
-
-    function add() {
-        location.href="http://localhost:8080/3.5.1/register.jsp";
-    }
-
 
 </script>
 <style>
@@ -133,22 +123,6 @@
         background-color: white;/*按钮选中后背景颜色为白色*/
         color:  #CC865E;/*按钮选中后字体颜色为褐色*/
         border: 1px solid #CC865E;/*按钮选中后边框颜色为褐色*/
-    }
-
-    /*注册按钮*/
-    .content .register {
-        text-align: center;/*子内容居中*/
-        margin-top: 20px;/*顶部的内边距为20px*/
-    }
-    .content .register button {
-        background-color: #466BAF;/*按钮的背景颜色为蓝色*/
-        width: 180px;/*按钮的宽度*/
-    }
-
-    .content .register button:hover {
-        background-color: white;/*按钮选中后背景颜色为白色*/
-        color: #466BAF;/*按钮选中后字体颜色为蓝色*/
-        border: 1px solid #466BAF;/*按钮选中后边框颜色为蓝色*/
     }
 
 </style>

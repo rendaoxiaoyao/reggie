@@ -1,26 +1,79 @@
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
-<%
-    String path = request.getContextPath();
-    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
-
+<%--
+  Created by IntelliJ IDEA.
+  User: 人道逍遥
+  Date: 2023/4/20
+  Time: 16:56
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <base href="<%=basePath%>">
-
-    <title>My JSP 'index.jsp' starting page</title>
-    <meta http-equiv="pragma" content="no-cache">
-    <meta http-equiv="cache-control" content="no-cache">
-    <meta http-equiv="expires" content="0">
-    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-    <meta http-equiv="description" content="This is my page">
-    <!--
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    -->
+    <title>用户综合管理软件</title>
 </head>
-
 <body>
-This is my JSP page. <br>
+<div class="div_1">
+    <button id="add">增加</button><br>
+    <button id="logout">退出</button><br>
+    <button id="update">修改</button><br>
+    <button id="select">查询</button><br>
+</div>
+
+
+
+<script>
+    document.getElementById('add').addEventListener('click',function () {
+        location.href="/6.3/page/insert.jsp"
+    })
+    document.getElementById('logout').addEventListener('click',function () {
+        location.href="/6.3/LogoutServlet"
+    })
+    document.getElementById('update').addEventListener('click',function () {
+        location.href="/6.3/page/update.jsp"
+    })
+    document.getElementById('select').addEventListener('click',function () {
+        location.href="/6.3/students?method=select&select=all"
+    })
+
+</script>
 </body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: #66afe9;
+    }
+    .div_1{
+        background-color: #466BAF;
+        margin: 250px auto;
+        /*margin-top: 10%;*/
+        /*margin-left: 20%;*/
+        width: 50%;
+        border: 2px solid #466BAF;
+        border-radius: 5px;
+
+    }
+    button{
+        background-color:#f66f6a;
+        color:white;
+        width: 80px;
+        height: 40px;
+        border:0;
+        font-size: 16px;
+        box-sizing: content-box;
+        border: 2px solid #f66f6a;
+        border-radius: 5px;
+
+        margin-top: 10px;
+        margin-left: 30%;
+        /*padding: 100px;*/
+    }
+    button:hover{
+        background-color: #a54b4a;
+    }
+
+</style>
 </html>
