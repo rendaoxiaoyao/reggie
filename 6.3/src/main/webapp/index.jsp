@@ -26,7 +26,7 @@
         location.href="/6.3/page/insert.jsp"
     })
     document.getElementById('logout').addEventListener('click',function () {
-        location.href="/6.3/LogoutServlet"
+        location.href="/6.3/logout"
     })
     document.getElementById('update').addEventListener('click',function () {
         location.href="/6.3/page/update.jsp"

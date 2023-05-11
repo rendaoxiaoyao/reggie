@@ -1,4 +1,4 @@
-<%@ page import="com.rdxy.entity.User" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: 人道逍遥
   Date: 2023/4/21
@@ -37,19 +37,19 @@
 
 <script>
 
-    <%
-    User user=(User) request.getSession().getAttribute("user");
-    if(user==null||user.getId()!=1001){
-    %>
-    document.getElementById('upload').style.display='none';
-    <%
-    }else{
-     %>
-    document.getElementById('upload').style.display='';
-    <%
+<%--    <%--%>
+<%--    User user=(User) request.getSession().getAttribute("user");--%>
+<%--    if(user==null||user.getId()!=1001){--%>
+<%--    %>--%>
+<%--    document.getElementById('upload').style.display='none';--%>
+<%--    <%--%>
+<%--    }else{--%>
+<%--     %>--%>
+<%--    document.getElementById('upload').style.display='';--%>
+<%--    <%--%>
 
-    }
-    %>
+<%--    }--%>
+<%--    %>--%>
 
     function add() {
         name=document.getElementById('name').value;
