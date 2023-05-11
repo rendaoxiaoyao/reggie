@@ -26,13 +26,13 @@
         location.href="insert.jsp"
     })
     document.getElementById('logout').addEventListener('click',function () {
-        location.href="/6.3/logout"
+        location.href="./logout"
     })
     document.getElementById('update').addEventListener('click',function () {
         location.href="update.jsp"
     })
     document.getElementById('select').addEventListener('click',function () {
-        location.href="/6.3/students?method=select"
+        location.href="./students"
     })
 
 </script>

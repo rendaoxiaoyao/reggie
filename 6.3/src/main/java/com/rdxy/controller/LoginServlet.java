@@ -26,7 +26,7 @@ public class LoginServlet extends HttpServlet {
             resp.sendRedirect("./page/index.jsp");
             return;
         }
-        req.getRequestDispatcher("/login.jsp").forward(req,resp);
+        resp.sendRedirect("./login.jsp");
 
         return;
 
