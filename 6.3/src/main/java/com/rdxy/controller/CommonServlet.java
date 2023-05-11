@@ -4,6 +4,7 @@ import com.rdxy.entity.Student;
 import com.rdxy.service.StudentService;
 import com.rdxy.service.impl.StudentServiceImpl;
 import com.rdxy.utils.InsertDB;
+import com.rdxy.utils.UploadUtil;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -33,55 +34,16 @@ public class CommonServlet extends HttpServlet {
         switch(method){
             case "upload":
                 try {
-                    DiskFileItemFactory fileItemFactory = new DiskFileItemFactory();
-                    ServletFileUpload servletFileUpload = new
-                            ServletFileUpload(fileItemFactory);
-                    List<FileItem> list = servletFileUpload.parseRequest(request);
-                    for(FileItem fileItem : list){
-                        System.out.println(fileItem);
-                        if(fileItem.isFormField()){
-                            String name = fileItem.getFieldName();
-                            String value = fileItem.getString("UTF-8");
-                            System.out.println(name+":"+value);
-                        }else{
-                            String fileName = fileItem.getName();
-                            long size = fileItem.getSize();
-                            System.out.println(fileName+":"+size+"Byte");
-                            InputStream inputStream = fileItem.getInputStream();
-// Reader reader = new InputStreamReader(inputStream);
-// BufferedReader bufferedReader = new BufferedReader(reader);
-
-                            String str="file";
-                            if(fileName.split("\\.")[1].equals("jpg")||fileName.split("\\.")[1].equals("png")){
-                                String id=request.getParameter("id");
-                                service.update(new Student(Integer.parseInt(id),"./images/"+fileName));
-                                str="images";
-                            }
-                            String path =
-                                    request.getServletContext().getRealPath(str+"/"+fileName);
-                            OutputStream outputStream = new FileOutputStream(path);
-// Writer writer = new OutputStreamWriter(outputStream);
-// BufferedWriter bufferedWriter = new BufferedWriter(writer);
-                            int temp = 0;
-                            while((temp = inputStream.read())!=-1){
-                                outputStream.write(temp);
-                            }
-// bufferedWriter.close();
-// writer.close();
-                            outputStream.close();
-// bufferedReader.close();
-// reader.close();
-                            inputStream.close();
-                            System.out.println("上传成功");
-
-                            if(fileName.split("\\.")[1].equals("xlsx")){
-                                System.out.println("数据批量导入路径："+path);
-                                InsertDB.insert(path);
-                            }
-
-                            response.sendRedirect("/6.3/students?method=select");
-                        }
+                    String[] s = UploadUtil.upload(service, request, response);
+                    String path=s[0];
+                    String fileName=s[1];
+                    if(fileName.split("\\.")[1].equals("xlsx")){
+                        System.out.println("数据批量导入路径："+path);
+                        InsertDB.insert(path);
                     }
+
+                    response.sendRedirect("/6.3/students?method=select");
+
                 } catch (FileUploadException e) {
                     e.printStackTrace();
                 }

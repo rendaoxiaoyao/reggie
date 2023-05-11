@@ -3,6 +3,8 @@ package com.rdxy.controller;
 import com.rdxy.entity.Student;
 import com.rdxy.service.StudentService;
 import com.rdxy.service.impl.StudentServiceImpl;
+import com.rdxy.utils.UploadUtil;
+import org.apache.commons.fileupload.FileUploadException;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -74,10 +76,20 @@ public class StudentServlet extends HttpServlet {
         String age=request.getParameter("age");
         String grade = request.getParameter("grade");
         String score = request.getParameter("score");
+        String fileName=null;
+        try {
+            fileName= UploadUtil.upload(service,request,response)[1];
+        } catch (FileUploadException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-        Student student=new Student(Integer.parseInt(id),name,sex,Integer.parseInt(age),grade,Float.valueOf(score));
+        Student student=new Student(Integer.parseInt(id),name,sex,Integer.parseInt(age),grade,Float.valueOf(score),"./images/"+fileName);
 
         service.update(student);
+
+
 
     }
 
