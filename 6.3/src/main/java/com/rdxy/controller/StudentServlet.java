@@ -37,7 +37,7 @@ public class StudentServlet extends HttpServlet {
                 break;
             case "select":
                 select(request,response);
-                break;
+                return;
             default:
                 break;
         }

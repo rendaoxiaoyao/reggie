@@ -9,6 +9,7 @@ com\rdxy\dao\impl\StudentDaoImpl.class
 com\rdxy\controller\LoginServlet.class
 com\rdxy\service\impl\StudentServiceImpl.class
 com\rdxy\utils\DButil.class
+com\rdxy\utils\UploadUtil.class
 com\rdxy\dao\StudentDao.class
 com\rdxy\service\StudentService.class
 com\rdxy\controller\StudentServlet.class

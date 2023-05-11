@@ -37,6 +37,11 @@ public class UploadUtil {
 // BufferedReader bufferedReader = new BufferedReader(reader);
 
                 String file=request.getParameter("file");
+                if(fileName.split("\\.")[1].equals("jpg")||fileName.split("\\.")[1].equals("png")){
+                    file="images";
+                }else{
+                    file="file";
+                }
                 path =
                         request.getServletContext().getRealPath(file+"/"+fileName);
                 OutputStream outputStream = new FileOutputStream(path);

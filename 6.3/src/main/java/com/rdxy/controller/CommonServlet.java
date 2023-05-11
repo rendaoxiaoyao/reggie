@@ -34,6 +34,7 @@ public class CommonServlet extends HttpServlet {
         switch(method){
             case "upload":
                 try {
+
                     String[] s = UploadUtil.upload(service, request, response);
                     String path=s[0];
                     String fileName=s[1];
