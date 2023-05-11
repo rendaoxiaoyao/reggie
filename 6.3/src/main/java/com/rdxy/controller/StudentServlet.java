@@ -21,6 +21,7 @@ public class StudentServlet extends HttpServlet {
 
         System.out.println("students");
         String method=request.getParameter("method");
+        method=method==null?"select":method;
         System.out.println(method);
         switch (method){
             case "insert":
@@ -38,7 +39,7 @@ public class StudentServlet extends HttpServlet {
             default:
                 break;
         }
-        select(request,response);
+        response.sendRedirect("/students");
     }
 
     @Override

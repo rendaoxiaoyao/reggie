@@ -11,22 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="导入6.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/impl/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/impl/StudentDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/filter/StudentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/filter/StudentFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/js/page/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/js/page/select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/controller/StudentServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/dao/impl/StudentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/dao/impl/StudentDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/filter/StudentFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/filter/StudentFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/js/page/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/js/page/select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/StudentServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/dao/impl/StudentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/dao/impl/StudentDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/filter/StudentFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/filter/StudentFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/LoginServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +192,7 @@
       <workItem from="1681981803317" duration="9756000" />
       <workItem from="1682040817177" duration="35619000" />
       <workItem from="1682655268040" duration="2667000" />
-      <workItem from="1683791830033" duration="20367000" />
+      <workItem from="1683791830033" duration="21303000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1682001580993</created>
@@ -424,7 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683810430754</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="导入6.3">
+      <created>1683812688607</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683812688607</updated>
+    </task>
+    <task id="LOCAL-00033" summary="导入6.3">
+      <created>1683812762817</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1683812762817</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
