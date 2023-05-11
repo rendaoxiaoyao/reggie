@@ -23,7 +23,7 @@ public class LoginServlet extends HttpServlet {
 
         if(name.equals("1001")&&password.equals("123456")){
             req.getSession().setAttribute("admin",name);
-            req.getRequestDispatcher("/index.jsp").forward(req,resp);
+            resp.sendRedirect("/page/index.jsp");
             return;
         }
         req.getRequestDispatcher("/login.jsp").forward(req,resp);

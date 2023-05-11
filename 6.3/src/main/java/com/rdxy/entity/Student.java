@@ -20,7 +20,7 @@ public class Student {
 		this.score = score;
 	}
 
-	public Student(String name, String sex, int age, String grade, int score) {
+	public Student(String name, String sex, int age, String grade, float score) {
 		this.name = name;
 		this.sex = sex;
 		this.age = age;

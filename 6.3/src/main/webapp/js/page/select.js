@@ -1,12 +1,11 @@
 function StudentDelete(id) {
-    alert(123)
     console.log(id)
     location.href="./students?id="+id+"&method=delete"
 }
 
 function StudentUpdate(id) {
     console.log(id)
-    location.href="./students?id="+id+"&method=update"
+    location.href="./students?id="+id+"&method=select&select=one"
 }
 function select() {
     msg=document.getElementById('msg').value;

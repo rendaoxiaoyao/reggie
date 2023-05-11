@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-//@WebFilter(urlPatterns = {"/students/*", "/index.jsp" ,"/page/*"})
+@WebFilter(urlPatterns = {"/*"})
 
 public class StudentFilter implements Filter {
     @Override
@@ -25,12 +25,10 @@ public class StudentFilter implements Filter {
         String uri = request.getRequestURI();
 
         System.out.println(request.getRequestURI());
-        if(uri.contains("login")||uri.contains("insert.jsp")){
+        if(uri.contains("login")){
             filterChain.doFilter(servletRequest,servletResponse);
             return;
         }
-
-
 
 
         Object Student = request.getSession().getAttribute("admin");
@@ -40,7 +38,6 @@ public class StudentFilter implements Filter {
         }
 
         filterChain.doFilter(servletRequest,servletResponse);
-
 
     }
 

@@ -17,6 +17,8 @@ public class StudentServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+
         System.out.println("students");
         String method=request.getParameter("method");
         System.out.println(method);
@@ -52,7 +54,7 @@ public class StudentServlet extends HttpServlet {
         String grade = request.getParameter("grade");
         String score = request.getParameter("score");
 
-        Student student=new Student(name,sex,Integer.parseInt(age),grade,Integer.parseInt(score));
+        Student student=new Student(name,sex,Integer.parseInt(age),grade,Float.valueOf(score));
 
         service.insert(student);
 
@@ -72,7 +74,7 @@ public class StudentServlet extends HttpServlet {
         String grade = request.getParameter("grade");
         String score = request.getParameter("score");
 
-        Student student=new Student(Integer.parseInt(id),name,sex,Integer.parseInt(age),grade,Integer.parseInt(score));
+        Student student=new Student(Integer.parseInt(id),name,sex,Integer.parseInt(age),grade,Float.valueOf(score));
 
         service.update(student);
 
@@ -87,15 +89,17 @@ public class StudentServlet extends HttpServlet {
                 String id=request.getParameter("id");
                 Student student=service.getOne(id);
                 request.setAttribute("student",student);
+                request.getRequestDispatcher("/page/update.jsp").forward(request,response);
                 break;
 
             case "all":
                 String msg=request.getParameter("msg");
                 List<Student> list = service.getAll(msg);
                 request.setAttribute("list",list);
+
+                request.getRequestDispatcher("/page/select.jsp").forward(request,response);
                 break;
         }
-        request.getRequestDispatcher("/page/select.jsp").forward(request,response);
     }
 
 

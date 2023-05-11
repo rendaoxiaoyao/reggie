@@ -67,7 +67,7 @@ public class StudentDaoImpl implements StudentDao {
         try {
             connection=DButil.getConnection();
             String sql="update student set name=" +
-                    "'"+student.getName()+"',sex='"+student.getSex()+"',age="+student.getAge()+",grade='"+student.getGrade()+"',score="+student.getScore()+");";
+                    "'"+student.getName()+"',sex='"+student.getSex()+"',age="+student.getAge()+",grade='"+student.getGrade()+"',score="+student.getScore()+" where id="+student.getId()+";";
 
             System.out.println(sql);
 
@@ -138,11 +138,7 @@ public class StudentDaoImpl implements StudentDao {
             connection= DButil.getConnection();
 
 
-            String sql=null;//String sql="select * from student where id="+Student.getId();
-
-//            if(Student.getName()!=null&&Student.getName()!=""){
-//                sql="select * from student where id="+Student.getName();
-//            }
+            String sql="select * from student where id="+id;
 
             System.out.println(sql);
 
