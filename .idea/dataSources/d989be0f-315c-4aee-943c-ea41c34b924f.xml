@@ -1110,7 +1110,13 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>6</Position>
       <DataType>float|0s</DataType>
     </column>
-    <key id="323" parent="316" name="PRIMARY">
+    <column id="323" parent="316" name="file">
+      <Position>7</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <DefaultExpression>&apos;./images/420.jpg&apos;</DefaultExpression>
+      <Collation>utf8mb3_general_ci</Collation>
+    </column>
+    <key id="324" parent="316" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

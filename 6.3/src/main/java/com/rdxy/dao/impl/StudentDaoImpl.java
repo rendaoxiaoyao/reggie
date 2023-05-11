@@ -115,6 +115,7 @@ public class StudentDaoImpl implements StudentDao {
                 student.setSex(rs.getString("sex"));
                 student.setGrade(rs.getString("grade"));
                 student.setScore(rs.getFloat("score"));
+                student.setFile(rs.getString("file"));
                 list.add(student);
             }
         } catch (SQLException e) {
@@ -153,6 +154,7 @@ public class StudentDaoImpl implements StudentDao {
                 student.setAge(rs.getInt("age"));
                 student.setGrade(rs.getString("grade"));
                 student.setScore(rs.getFloat("score"));
+                student.setFile(rs.getString("file"));
                 return student;
             }
         } catch (SQLException e) {

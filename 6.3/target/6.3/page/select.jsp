@@ -11,6 +11,7 @@ To change this template use File | Settings | File Templates.
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
 <html>
 <head>
     <title>查询</title>
@@ -52,6 +53,7 @@ To change this template use File | Settings | File Templates.
 <table align="center" border="2" cellpadding="15px" cellspacing="0">
     <thead>
     <tr>
+        <th>头像</th>
         <th>编号</th>
         <th>姓名</th>
         <th>性别</th>
@@ -62,13 +64,20 @@ To change this template use File | Settings | File Templates.
     </tr>
     </thead>
 </table>
-
+<style>
+    img{
+        width: 80px;
+        height: 70px;
+        object-fit: contain;
+    }
+</style>
 <table id="tableId" align="center" border="2" cellpadding="15px" cellspacing="0">
 
     <tbody>
 
     <c:forEach items="${list}" var="student">
         <tr>
+            <td><img src="${student.file}"></td>
             <td>${student.id}</td>
             <td>${student.name}</td>
             <td>${student.sex}</td>

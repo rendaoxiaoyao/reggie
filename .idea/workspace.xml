@@ -10,10 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="导入6.3">
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/controller/StudentServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/js/page/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/js/page/select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/StudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989be0f-315c-4aee-943c-ea41c34b924f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d989be0f-315c-4aee-943c-ea41c34b924f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/impl/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/page/common/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/common/upload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/page/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/page/select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/select.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/page/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/page/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/dao/impl/StudentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/dao/impl/StudentDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/page/common/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/page/common/upload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/page/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/page/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/page/select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/page/select.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/page/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/page/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/dao/impl/StudentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/dao/impl/StudentDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/entity/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +207,7 @@
       <workItem from="1681981803317" duration="9756000" />
       <workItem from="1682040817177" duration="35619000" />
       <workItem from="1682655268040" duration="2667000" />
-      <workItem from="1683791830033" duration="21667000" />
+      <workItem from="1683791830033" duration="24545000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1682001580993</created>
@@ -432,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683813868995</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="导入6.3">
+      <created>1683813986003</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1683813986003</updated>
+    </task>
+    <task id="LOCAL-00036" summary="导入6.3">
+      <created>1683814213217</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1683814213217</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

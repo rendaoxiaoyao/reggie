@@ -7,8 +7,19 @@ public class Student {
 	public int age;
 	public String grade;
 	public float score;
+	public String file;
 
 	public Student() {
+	}
+
+	public Student(int id, String name, String sex, int age, String grade, float score,String file) {
+		this.id = id;
+		this.name = name;
+		this.sex = sex;
+		this.age = age;
+		this.grade = grade;
+		this.score = score;
+		this.file=file;
 	}
 
 	public Student(int id, String name, String sex, int age, String grade, float score) {
@@ -122,6 +133,14 @@ public class Student {
 	 */
 	public void setScore(float score) {
 		this.score = score;
+	}
+
+	public void setFile(String file) {
+		this.file = file;
+	}
+
+	public String getFile() {
+		return file;
 	}
 
 	public String toString() {

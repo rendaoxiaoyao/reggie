@@ -25,7 +25,7 @@
 
     <form action="/6.3/CommonServlet?method=upload" method="post" enctype="multipart/form-data">
 
-        批量增加： <input type="file" id="file" name="file"><br/>
+        文件上传： <input type="file" id="file" name="file"><br/>
         <input id="button" type="submit" value="提交" onclick="return adds()">
     </form>
 </div>
