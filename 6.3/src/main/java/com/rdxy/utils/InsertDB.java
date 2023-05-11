@@ -25,17 +25,9 @@ public class InsertDB {
      *
      */
     public static void insert() throws IOException {{
-        insert("3.5.1/3.5.1/src/main/webapp/file/Students.xlsx");
+        insert("3.5.1/6.3/src/main/webapp/file/Students.xlsx");
     }}
     public static void insert(String path) throws IOException {
-
-//        ArrayList<Student> new_Students=new ArrayList<>();
-//        for (int i = 0; i < 100; i++) {
-//            new_Students.add(new Student(RandomNameUtil.fullName(),"123456"));
-//
-//        }
-//
-//        ExcelUtil.GreateExcel(new_Students,"用户");
 
         StudentService StudentService=new StudentServiceImpl();
 
@@ -54,7 +46,7 @@ public class InsertDB {
      * @throws IOException
      */
     public static List<Student> getObjList(String path) throws IOException {
-        List<Student> Students = new ArrayList<>();
+        List<Student> lists = new ArrayList<>();
         //获取工作簿
         XSSFWorkbook workbook = new XSSFWorkbook(path);
         //过去工作表
@@ -77,14 +69,14 @@ public class InsertDB {
                     }
                 }
                 //将每一行的内容封装为一个实体类
-                Student  Student = new Student((int) Double.parseDouble(list.get(0)),list.get(1),list.get(2));
+                Student  Student = new Student(Integer.parseInt(list.get(0)),list.get(1),list.get(2),Integer.parseInt(list.get(3)),list.get(4),Integer.parseInt(list.get(5)));
                 //将每一个实体类加入到productList中
-                Students.add(Student);
+                lists.add(Student);
             }
         }
         //关闭资源
         workbook.close();
-        return Students;
+        return lists;
     }
 }
 

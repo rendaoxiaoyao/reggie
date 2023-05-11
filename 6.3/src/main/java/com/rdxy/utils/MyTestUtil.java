@@ -7,13 +7,13 @@ import java.util.ArrayList;
 
 public class MyTestUtil {
     public static void main(String[] args) throws IOException {
-        ArrayList<Student> Students=new ArrayList<>();
+        ArrayList<Student> lists=new ArrayList<>();
         for (int i = 0; i < 100; i++) {
-            //Students.add(new Student(RandomNameUtil.fullName(),"123456"));
+            lists.add(new Student(RandomNameUtil.fullName(),"男",20,null,100));
 
         }
 
-        ExcelUtil.GreateExcel(Students,"用户");
+        ExcelUtil.GreateExcel(lists,"用户");
 
     }
 }
