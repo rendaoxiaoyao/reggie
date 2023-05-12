@@ -1082,7 +1082,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Host>localhost</Host>
     </user>
     <table id="316" parent="23" name="student">
-      <Collation>gbk_chinese_ci</Collation>
+      <Collation>utf8mb4_general_ci</Collation>
     </table>
     <column id="317" parent="316" name="id">
       <Position>1</Position>
@@ -1114,7 +1114,6 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>7</Position>
       <DataType>varchar(40)|0s</DataType>
       <DefaultExpression>&apos;./images/420.jpg&apos;</DefaultExpression>
-      <Collation>utf8mb3_general_ci</Collation>
     </column>
     <key id="324" parent="316" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>

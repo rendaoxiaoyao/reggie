@@ -20,7 +20,6 @@ public class StudentServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("UTF-8");
 
         System.out.println("students");
         String method=request.getParameter("method");
@@ -103,6 +102,9 @@ public class StudentServlet extends HttpServlet {
 
             case "all":
                 String msg=request.getParameter("msg");
+                if(msg!=null){
+                    msg = new String(msg.getBytes("iso-8859-1"), "utf-8");
+                }
                 List<Student> list = service.getAll(msg);
                 request.setAttribute("list",list);
 

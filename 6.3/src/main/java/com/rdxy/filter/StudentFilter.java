@@ -17,6 +17,8 @@ public class StudentFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException, IOException {
+        //servletRequest.setCharacterEncoding("UTF-8");
+
         System.out.println("这里是doFilter");
 
         HttpServletRequest request = (HttpServletRequest) servletRequest;
