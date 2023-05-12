@@ -73,3 +73,14 @@
 0:0:0:0:0:0:0:1 - - [12/May/2023:11:29:19 +0800] "POST /6.3/students?method=update HTTP/1.1" 302 - http-bio-8080-exec-6 6045
 0:0:0:0:0:0:0:1 - - [12/May/2023:11:29:19 +0800] "GET /6.3/students HTTP/1.1" 200 91091 http-bio-8080-exec-7 42
 0:0:0:0:0:0:0:1 - - [12/May/2023:11:29:19 +0800] "GET /6.3/images/20230308042807.png HTTP/1.1" 200 199123 http-bio-8080-exec-8 18
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:31:31 +0800] "GET /6.3/students HTTP/1.1" 200 91091 http-bio-8080-exec-1 1132
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:31:31 +0800] "GET /6.3/images/20230308042807.png HTTP/1.1" 304 - http-bio-8080-exec-3 9
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:31:50 +0800] "GET /6.3/students?id=1217&method=select&select=one HTTP/1.1" 200 806 http-bio-8080-exec-4 15
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:31:50 +0800] "GET /css/common.css HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:32:11 +0800] "POST /6.3/students?method=update HTTP/1.1" 302 - http-bio-8080-exec-6 6420
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:32:11 +0800] "GET /6.3/students HTTP/1.1" 200 91105 http-bio-8080-exec-7 33
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:32:11 +0800] "GET /6.3/images/20230308042807.png HTTP/1.1" 304 - http-bio-8080-exec-2 5
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:32:11 +0800] "GET /6.3/images/user.png HTTP/1.1" 200 184864 http-bio-8080-exec-8 11
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:33:28 +0800] "GET /6.3/page/index.jsp HTTP/1.1" 200 1596 http-bio-8080-exec-1 44
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:33:31 +0800] "GET /6.3/page/insert.jsp HTTP/1.1" 200 1786 http-bio-8080-exec-4 1017
+0:0:0:0:0:0:0:1 - - [12/May/2023:11:33:52 +0800] "POST /6.3/students?method=insert HTTP/1.1" 500 1680 http-bio-8080-exec-4 108

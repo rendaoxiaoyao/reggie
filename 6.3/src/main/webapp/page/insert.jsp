@@ -23,14 +23,13 @@
 <body>
 <div class="div_1">
 
-    <form action="/6.3/students?method=insert" method="post" method="post" enctype="multipart/form-data">
+    <form action="/6.3/students?method=insert" method="post">
 
         请输入姓名：   <input type="text" id="name" name="name"><br/>
         请输入性别：   <input type="text" id="sex" name="sex"><br/>
         请输入年龄：   <input type="text" id="age" name="age"><br/>
         请输入班级：   <input type="text" id="grade" name="grade"><br/>
         请输入成绩：   <input type="text" id="score" name="score"><br/>
-        头像： <input type="file" id="file" name="file"><br/>
 
         <input id="button" type="submit" value="提交" onclick="return add()">
     </form>

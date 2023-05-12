@@ -9,19 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="6.3 学生头像">
-      <change afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/entity/StudentU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/CommonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/CommonServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/impl/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/dao/impl/StudentDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/UploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/UploadUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/images/20230308042807.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/CommonServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/CommonServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/controller/StudentServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/target/tomcat/work/Tomcat/localhost/6.3/SESSIONS.ser" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/tomcat/work/Tomcat/localhost/6.3/SESSIONS.ser" afterDir="false" />
-    </list>
+    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="6.3 学生头像" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +210,7 @@
       <workItem from="1681981803317" duration="9756000" />
       <workItem from="1682040817177" duration="35619000" />
       <workItem from="1682655268040" duration="2667000" />
-      <workItem from="1683791830033" duration="34523000" />
+      <workItem from="1683791830033" duration="34839000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1682001580993</created>
@@ -532,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683824172941</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="6.3 学生头像">
+      <created>1683862209489</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1683862209489</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
