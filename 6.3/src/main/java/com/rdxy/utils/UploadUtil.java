@@ -1,6 +1,7 @@
 package com.rdxy.utils;
 
 import com.rdxy.entity.Student;
+import com.rdxy.entity.StudentU;
 import com.rdxy.service.StudentService;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadException;
@@ -10,11 +11,16 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class UploadUtil {
 
-    public static String[] upload(StudentService service,HttpServletRequest request, HttpServletResponse response) throws FileUploadException, IOException {
+    public static StudentU upload(StudentService service,HttpServletRequest request, HttpServletResponse response) throws FileUploadException, IOException {
+        StudentU U=new StudentU();
+        Map<String,String> map=new HashMap<>();
+
         String path = null;
         String fileName=null;
 
@@ -28,6 +34,7 @@ public class UploadUtil {
                 String name = fileItem.getFieldName();
                 String value = fileItem.getString("UTF-8");
                 System.out.println(name+":"+value);
+                map.put(name,value);
             }else{
                 fileName = fileItem.getName();
                 long size = fileItem.getSize();
@@ -61,7 +68,20 @@ public class UploadUtil {
 
             }
         }
-        return new String[]{path,fileName};
+
+        Student s=new Student();
+        s.setId(Integer.parseInt(map.get("id")));
+        s.setName(map.get("name"));
+        s.setSex(map.get("sex"));
+        s.setAge(Integer.parseInt(map.get("age")));
+        s.setGrade(map.get("grade"));
+        s.setScore(Float.valueOf(map.get("score")));
+
+        U.setStudent(s);
+        U.setFileName(fileName);
+        U.setPath(path);
+
+        return U;
 
     }
 

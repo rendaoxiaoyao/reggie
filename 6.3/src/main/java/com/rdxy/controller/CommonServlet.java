@@ -1,6 +1,7 @@
 package com.rdxy.controller;
 
 import com.rdxy.entity.Student;
+import com.rdxy.entity.StudentU;
 import com.rdxy.service.StudentService;
 import com.rdxy.service.impl.StudentServiceImpl;
 import com.rdxy.utils.InsertDB;
@@ -35,9 +36,9 @@ public class CommonServlet extends HttpServlet {
             case "upload":
                 try {
 
-                    String[] s = UploadUtil.upload(service, request, response);
-                    String path=s[0];
-                    String fileName=s[1];
+                    StudentU U= UploadUtil.upload(service, request, response);
+                    String path=U.getPath();
+                    String fileName=U.getFileName();
                     if(fileName.split("\\.")[1].equals("xlsx")){
                         System.out.println("数据批量导入路径："+path);
                         InsertDB.insert(path);

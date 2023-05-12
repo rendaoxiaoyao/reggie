@@ -1,6 +1,7 @@
 package com.rdxy.controller;
 
 import com.rdxy.entity.Student;
+import com.rdxy.entity.StudentU;
 import com.rdxy.service.StudentService;
 import com.rdxy.service.impl.StudentServiceImpl;
 import com.rdxy.utils.UploadUtil;
@@ -70,24 +71,19 @@ public class StudentServlet extends HttpServlet {
 
     }
     private void update(HttpServletRequest request, HttpServletResponse response) {
-        String id=request.getParameter("id");
-        String name=request.getParameter("name");
-        String sex=request.getParameter("sex");
-        String age=request.getParameter("age");
-        String grade = request.getParameter("grade");
-        String score = request.getParameter("score");
-        String fileName=null;
+        StudentU U = null;
         try {
-            fileName= UploadUtil.upload(service,request,response)[1];
+            U= UploadUtil.upload(service,request,response);
         } catch (FileUploadException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        Student student=new Student(Integer.parseInt(id),name,sex,Integer.parseInt(age),grade,Float.valueOf(score),"./images/"+fileName);
+        U.getStudent().setFile("./images/"+U.getFileName());
 
-        service.update(student);
+
+        service.update(U.getStudent());
 
 
 

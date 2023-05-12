@@ -1,3 +1,4 @@
+com\rdxy\entity\StudentU.class
 com\rdxy\utils\RandomNameUtil.class
 com\rdxy\utils\ExcelUtil.class
 com\rdxy\controller\LogoutServlet.class
