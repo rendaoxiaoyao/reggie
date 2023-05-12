@@ -8,7 +8,6 @@ import java.io.IOException;
 
 
 @WebFilter(urlPatterns = {"/*"})
-
 public class StudentFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {

@@ -3,10 +3,16 @@ function StudentDelete(id) {
     location.href="./students?id="+id+"&method=delete"
 }
 
+function StudentDeletes() {
+    location.href="./students?&method=delete"
+}
+
 function StudentUpdate(id) {
     console.log(id)
     location.href="./students?id="+id+"&method=select&select=one"
 }
+
+
 
 function select() {
     msg=document.getElementById('msg').value;

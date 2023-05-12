@@ -65,8 +65,12 @@ public class StudentServlet extends HttpServlet {
     }
     private void delete(HttpServletRequest request, HttpServletResponse response) {
         String id=request.getParameter("id");
+        if(id==null){
+            service.delete();
+        }else{
+            service.delete(Integer.parseInt(id));
+        }
 
-        service.delete(Integer.parseInt(id));
 
     }
     private void update(HttpServletRequest request, HttpServletResponse response) {

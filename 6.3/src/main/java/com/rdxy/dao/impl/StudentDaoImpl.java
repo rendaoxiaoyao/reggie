@@ -62,6 +62,26 @@ public class StudentDaoImpl implements StudentDao {
     }
 
     @Override
+    public int delete() {
+        int flag=0;
+        try {
+            connection=DButil.getConnection();
+            String sql="delete from student";
+            System.out.println(sql);
+
+            ps=connection.prepareStatement(sql);
+            flag = ps.executeUpdate();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DButil.closeAll(connection,ps,rs);
+        }
+
+        return flag;
+    }
+
+    @Override
     public boolean update(Student student) {
         boolean flag=false;
         try {

@@ -8,7 +8,7 @@ public interface StudentDao {
 
     boolean insert(Student Student);
     boolean delete(int id);
-
+    int delete();
     boolean update(Student Student);
     Student getOne(String id);
     List<Student> getAll(String msg);

@@ -48,7 +48,7 @@ To change this template use File | Settings | File Templates.
     <input type="text" id="msg" class="msg">
     <button id="select" onclick="select()">查询</button>
     <button id="add" onclick="add()">增加</button>
-    <button id="deletes" onclick="UserDeletes()">清空</button>
+    <button id="deletes" onclick="StudentDeletes()">清空</button>
 </div>
 <table align="center" border="2" cellpadding="15px" cellspacing="0">
     <thead>

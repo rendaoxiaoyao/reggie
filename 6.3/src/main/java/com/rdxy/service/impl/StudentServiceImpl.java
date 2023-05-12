@@ -22,6 +22,11 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
+    public int delete() {
+        return dao.delete();
+    }
+
+    @Override
     public boolean update(Student Student) {
 
         return dao.update(Student);
