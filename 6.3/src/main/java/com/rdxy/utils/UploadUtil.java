@@ -44,6 +44,11 @@ public class UploadUtil {
 // BufferedReader bufferedReader = new BufferedReader(reader);
 
                 String file=request.getParameter("file");
+                if(file==null||file==""){
+                    continue;
+                }
+                System.out.println("111111111111111111111="+fileName);
+
                 if(fileName.split("\\.")[1].equals("jpg")||fileName.split("\\.")[1].equals("png")){
                     file="images";
                 }else{
@@ -70,16 +75,21 @@ public class UploadUtil {
         }
 
         Student s=new Student();
-        s.setId(Integer.parseInt(map.get("id")));
-        s.setName(map.get("name"));
-        s.setSex(map.get("sex"));
-        s.setAge(Integer.parseInt(map.get("age")));
-        s.setGrade(map.get("grade"));
-        s.setScore(Float.valueOf(map.get("score")));
+        if(map.size()>0){
+            s.setId(Integer.parseInt(map.get("id")));
+            s.setName(map.get("name"));
+            s.setSex(map.get("sex"));
+            s.setAge(Integer.parseInt(map.get("age")));
+            s.setGrade(map.get("grade"));
+            s.setScore(Float.valueOf(map.get("score")));
+        }
 
         U.setStudent(s);
         U.setFileName(fileName);
         U.setPath(path);
+
+
+        System.out.println("path1111111111="+path);
 
         return U;
 

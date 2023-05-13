@@ -83,7 +83,10 @@ public class StudentServlet extends HttpServlet {
             e.printStackTrace();
         }
 
-        U.getStudent().setFile("./images/"+U.getFileName());
+        if(U.getFileName()!=null&&U.getFileName()!=""){
+            U.getStudent().setFile("./images/"+U.getFileName());
+        }
+
 
 
         service.update(U.getStudent());

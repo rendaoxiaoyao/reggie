@@ -43,7 +43,7 @@ To change this template use File | Settings | File Templates.
 
 
 
-<h1>用户成员</h1>
+<h1>学生管理</h1>
 <div>
     <input type="text" id="msg" class="msg">
     <button id="select" onclick="select()">查询</button>
