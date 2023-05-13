@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="赵生龙 6.3 项目完善">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/UploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/UploadUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,14 +227,7 @@
       <workItem from="1682040817177" duration="35619000" />
       <workItem from="1682655268040" duration="2667000" />
       <workItem from="1683791830033" duration="38390000" />
-      <workItem from="1683945339416" duration="4285000" />
-    </task>
-    <task id="LOCAL-00003" summary="添加背景图片">
-      <created>1682003765396</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1682003765396</updated>
+      <workItem from="1683945339416" duration="5786000" />
     </task>
     <task id="LOCAL-00004" summary="3.5.1">
       <created>1682071526883</created>
@@ -571,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683948899458</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="赵生龙 6.3 项目完善">
+      <created>1683949664360</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1683949664360</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -44,7 +44,7 @@ public class UploadUtil {
 // BufferedReader bufferedReader = new BufferedReader(reader);
 
                 String file=request.getParameter("file");
-                if(file==null||file==""){
+                if(fileName==null||fileName==""){
                     continue;
                 }
                 System.out.println("111111111111111111111="+fileName);
