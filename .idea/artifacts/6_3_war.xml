@@ -3,8 +3,10 @@
     <output-path>$PROJECT_DIR$/6.3/target</output-path>
     <properties id="maven-jee-properties">
       <options>
+        <exploded>false</exploded>
         <module>6.3</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="6.3.war">

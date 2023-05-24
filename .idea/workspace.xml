@@ -2,16 +2,252 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="6.3:war exploded" />
+      <artifact name="10.2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="赵生龙 6.3 项目完善">
+    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="6.3 学生头像">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/10_2_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/10_2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__2___2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__4_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__5_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/10.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/sql/student.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/cla2sub/servlet/AddCla2SubServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/cla2sub/servlet/DeleteCla2SubServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/cla2sub/servlet/ExportCal_subServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/cla2sub/servlet/GetCountPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/cla2sub/servlet/PlanAddCla2SubSevlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/cla2sub/servlet/SearcCla2SubServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/cla2sub/servlet/SearchCla2Sub_exServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/classes/servlet/AddClassesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/classes/servlet/DeleteClassesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/classes/servlet/EditClassesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/classes/servlet/GetCountPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/classes/servlet/PlanAddClassesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/classes/servlet/SearchClassesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/classes/servlet/UpdateClassesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/ICla2Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/IClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/ILogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/IMajor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/IOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/IPicture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/IPrivilege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/IRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/IScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/IStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/ISubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/dao/ITeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/entity/Cla2Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/entity/Classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/entity/Major.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/entity/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/entity/Privilege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/entity/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/entity/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/entity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/filter/EnCodeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/Cla2SubImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ClassesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/LoginImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/MajorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/OperatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/PictureImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/PrivilegeImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/RoleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/StudentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/SubjectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/TeacherImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/login/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/major/servlet/AddMajorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/major/servlet/DeleteMajorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/major/servlet/EditMajorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/major/servlet/GetCountPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/major/servlet/SearchMajorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/major/servlet/UpdateMajorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/EditScoreServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/GetCountPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/ReportScoreServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/SearchScoreServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/UpdateScoreServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/AddStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/DeleteStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/EditStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/GetCountPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/InfoStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/PlanAddStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/SearchClassmatesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/SearchStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/SearchTeacherClassServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/UpdateStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/subject/servlet/AddSubjectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/subject/servlet/DeleteSubjectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/subject/servlet/EditSubjectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/subject/servlet/GetCountPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/subject/servlet/SearchSubjectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/subject/servlet/UpdateSubjectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/teacher/servlet/AddTeacherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/teacher/servlet/DeleteTeacherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/teacher/servlet/EditTeacherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/teacher/servlet/GetCountPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/teacher/servlet/InfoTeacherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/teacher/servlet/SearchTeacherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/teacher/servlet/UpdateTeacherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/util/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/WEB-INF/lib/commons-beanutils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/WEB-INF/lib/commons-collections-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/WEB-INF/lib/commons-httpclient.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/WEB-INF/lib/commons-lang-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/WEB-INF/lib/commons-logging.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/WEB-INF/lib/json-lib-2.2.3-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/WEB-INF/lib/jspsmartupload.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/WEB-INF/lib/jxl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.5-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/css/add_class_subject.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/css/classmate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/css/left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/css/regist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/css/subject_search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/css/top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/css/update.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/Title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/body-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/hehe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/WdatePicker.js.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/add_classes_subject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/export_classes_subject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/left.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/search_classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/search_classes_subject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/search_major.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/search_score.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/search_student.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/search_subject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/search_teacher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/add_classes.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/add_classes_subject.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/add_major.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/add_student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/add_subject.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/add_teacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/export_classes_subject.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/info_student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/info_teacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/noclass.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/search_classes.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/search_classes_subject.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/search_classmate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/search_major.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/search_score.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/search_student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/search_subject.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/search_teacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/update_classes.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/update_major.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/update_score.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/update_student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/update_subject.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/update_teacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/3_5_1_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/3_5_1_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/3_5_1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/3_5_1_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/6_3_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/6_3_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/6_3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/6_3_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989be0f-315c-4aee-943c-ea41c34b924f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989be0f-315c-4aee-943c-ea41c34b924f/storage_v2/_src_/schema/bookdb.JzGLrQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989be0f-315c-4aee-943c-ea41c34b924f/storage_v2/_src_/schema/bookdb.JzGLrQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989be0f-315c-4aee-943c-ea41c34b924f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989be0f-315c-4aee-943c-ea41c34b924f/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989be0f-315c-4aee-943c-ea41c34b924f/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989be0f-315c-4aee-943c-ea41c34b924f/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc7bff5b-b2df-4c6b-ae78-dba17935ab7f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc7bff5b-b2df-4c6b-ae78-dba17935ab7f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/UploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/UploadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/src/main/webapp/file/Students.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/src/main/webapp/file/Students.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/controller/StudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/utils/UploadUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/classes/com/rdxy/utils/UploadUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/file/Students.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/file/Students.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/page/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/page/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/6.3/page/select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/6.3/page/select.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/utils/UploadUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/classes/com/rdxy/utils/UploadUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/tomcat/logs/access_log.2023-05-13" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/tomcat/logs/access_log.2023-05-13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/tomcat/work/Tomcat/localhost/6.3/org/apache/jsp/page/common/upload_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/tomcat/work/Tomcat/localhost/6.3/org/apache/jsp/page/common/upload_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/tomcat/work/Tomcat/localhost/6.3/org/apache/jsp/page/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/tomcat/work/Tomcat/localhost/6.3/org/apache/jsp/page/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/tomcat/work/Tomcat/localhost/6.3/org/apache/jsp/page/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/tomcat/work/Tomcat/localhost/6.3/org/apache/jsp/page/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/target/tomcat/work/Tomcat/localhost/6.3/org/apache/jsp/page/select_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/target/tomcat/work/Tomcat/localhost/6.3/org/apache/jsp/page/select_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +275,14 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\2001\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2OgSmin2DR5Xx1POy3SpaSWGujV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,28 +294,28 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunConfigurationTargetLRU" value="dc7bff5b-b2df-4c6b-ae78-dba17935ab7f/schema/&quot;students&quot;" />
+    <property name="RunConfigurationTargetLRU" value="dc7bff5b-b2df-4c6b-ae78-dba17935ab7f/schema/&quot;student&quot;" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/6.3/src/main/webapp/file" />
+    <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10.2/sql" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37816092" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\sql" />
+      <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\src\main\java\com\rdxy" />
+      <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\src\main\webapp\WEB-INF" />
+      <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\src\main\webapp" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\webapp\file" />
-      <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\webapp\page" />
-      <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\webapp" />
-      <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\java\com\rdxy" />
-      <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\java\com\rdxy\dbutil" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\target\6.3" />
@@ -84,7 +328,7 @@
       <recent name="com.rdxy.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.MyTestUtil">
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 8.5.63">
     <configuration name="MyTestUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rdxy.utils.MyTestUtil" />
       <module name="6.3" />
@@ -98,29 +342,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="student.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/6.3/sql/student.sql" />
+      <script-file value="$PROJECT_DIR$/10.2/sql/student.sql" />
       <script-mode>FILE</script-mode>
-      <data-source id="dc7bff5b-b2df-4c6b-ae78-dba17935ab7f" namespace="schema/&quot;students&quot;" />
+      <data-source id="dc7bff5b-b2df-4c6b-ae78-dba17935ab7f" namespace="schema/&quot;student&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 8.5.63" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.63" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="6.3:war exploded">
+        <artifact name="10.2:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/6.3" />
+            <option name="CONTEXT_PATH" value="/Student" />
           </settings>
         </artifact>
       </deployment>
@@ -198,7 +431,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="6.3:war exploded" />
+          <artifact name="10.2:war exploded" />
         </option>
       </method>
     </configuration>
@@ -209,8 +442,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.MyTestUtil" />
         <item itemvalue="数据库脚本.student.sql" />
+        <item itemvalue="应用程序.MyTestUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +460,26 @@
       <workItem from="1682040817177" duration="35619000" />
       <workItem from="1682655268040" duration="2667000" />
       <workItem from="1683791830033" duration="38390000" />
-      <workItem from="1683945339416" duration="5786000" />
+      <workItem from="1684109570500" duration="3174000" />
+      <workItem from="1684501639959" duration="2796000" />
+      <workItem from="1684505826248" duration="43000" />
+      <workItem from="1684921295800" duration="448000" />
+      <workItem from="1684921981020" duration="5698000" />
+      <workItem from="1684931321645" duration="1617000" />
+    </task>
+    <task id="LOCAL-00002" summary="初始化">
+      <created>1682001946192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682001946192</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加背景图片">
+      <created>1682003765396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682003765396</updated>
     </task>
     <task id="LOCAL-00004" summary="3.5.1">
       <created>1682071526883</created>
@@ -558,21 +810,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683865100790</updated>
     </task>
-    <task id="LOCAL-00051" summary="赵生龙 6.3 项目完善">
-      <created>1683948899458</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1683948899458</updated>
-    </task>
-    <task id="LOCAL-00052" summary="赵生龙 6.3 项目完善">
-      <created>1683949664360</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1683949664360</updated>
-    </task>
-    <option name="localTasksCounter" value="53" />
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,8 +835,7 @@
     <MESSAGE value="导入6.3" />
     <MESSAGE value="6.3学生头像" />
     <MESSAGE value="6.3 学生头像" />
-    <MESSAGE value="赵生龙 6.3 项目完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="赵生龙 6.3 项目完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.3 学生头像" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -644,13 +881,23 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/utils/UploadUtil.java</url>
           <line>88</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/6.3/src/main/java/com/rdxy/controller/StudentServlet.java</url>
-          <line>86</line>
+          <line>110</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/10.2/src/main/java/com/rdxy/login/servlet/LoginServlet.java</url>
+          <line>24</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
