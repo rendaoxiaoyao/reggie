@@ -9,22 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="10.2初始化">
-      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc7bff5b-b2df-4c6b-ae78-dba17935ab7f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc7bff5b-b2df-4c6b-ae78-dba17935ab7f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_4_25_23_01____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2023_4_25_23_01____.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_4_28_12_11____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2023_4_28_12_11____.xml" afterDir="false" />
+    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/SearchScoreServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/SearchScoreServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/js/search_student.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/js/search_student.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/search_student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/search_student.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/js/search_student.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/js/search_student.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/search_student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/search_student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/ScoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/ScoreImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/score/servlet/SearchScoreServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/score/servlet/SearchScoreServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/ScoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/ScoreImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/score/servlet/SearchScoreServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/score/servlet/SearchScoreServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,14 +247,7 @@
       <workItem from="1684931321645" duration="2083000" />
       <workItem from="1686050134913" duration="1071000" />
       <workItem from="1686051296412" duration="973000" />
-      <workItem from="1686052338032" duration="10313000" />
-    </task>
-    <task id="LOCAL-00003" summary="添加背景图片">
-      <created>1682003765396</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1682003765396</updated>
+      <workItem from="1686052338032" duration="13414000" />
     </task>
     <task id="LOCAL-00004" summary="3.5.1">
       <created>1682071526883</created>
@@ -600,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684933205191</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="new">
+      <created>1686063016526</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1686063016527</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +618,8 @@
     <MESSAGE value="6.3学生头像" />
     <MESSAGE value="6.3 学生头像" />
     <MESSAGE value="10.2初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.2初始化" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
