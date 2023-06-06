@@ -331,9 +331,18 @@ public class ScoreImpl implements IScore {
 				pst.setInt(5, currentPage);
 
 			} else {
-				pst = conn
-						.prepareStatement("SELECT * FROM score order by sco_id limit ?,10");
-				pst.setInt(1, currentPage);
+
+
+				if(currentPage>=0){
+					pst = conn
+							.prepareStatement("SELECT * FROM score order by sco_id limit ?,10");
+					pst.setInt(1, currentPage);
+
+				}else{
+					pst = conn
+							.prepareStatement("SELECT * FROM score");
+				}
+
 			}
 			rs = pst.executeQuery();
 			while (rs.next()) {

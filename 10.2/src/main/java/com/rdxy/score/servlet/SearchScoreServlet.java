@@ -30,6 +30,9 @@ public class SearchScoreServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		System.out.println("这里是SearchScoreServlet .java");
+		System.out.println(request.getRequestURL());
+
 		// AJAX异步查询成绩
 		StudentImpl studentImpl = new StudentImpl();
 		TeacherImpl teacherImpl = new TeacherImpl();
