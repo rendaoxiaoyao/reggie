@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html">
+    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html 直方图">
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/20230330234633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/420.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" afterDir="false" />
@@ -76,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10.2/src/main/webapp/pages/new" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10.2/src/main/webapp/upload" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
@@ -87,13 +89,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\src\main\webapp\upload" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\src\main\webapp\pages\new" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\sql" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\src\main\java\com\rdxy" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\src\main\webapp\WEB-INF" />
-      <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2001\2023\workspace\zhong-guo-hong\10.2\src\main\webapp\images" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\target\6.3" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\webapp\page" />
       <recent name="D:\2001\2023\workspace\zhong-guo-hong\6.3\src\main\webapp" />
@@ -245,14 +248,7 @@
       <workItem from="1684931321645" duration="2083000" />
       <workItem from="1686050134913" duration="1071000" />
       <workItem from="1686051296412" duration="973000" />
-      <workItem from="1686052338032" duration="29320000" />
-    </task>
-    <task id="LOCAL-00009" summary="3.5.1">
-      <created>1682167864993</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1682167864993</updated>
+      <workItem from="1686052338032" duration="33535000" />
     </task>
     <task id="LOCAL-00010" summary="3.5.1">
       <created>1682167872900</created>
@@ -590,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686137548089</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="search_grade.html 直方图">
+      <created>1686142848128</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1686142848129</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +621,8 @@
     <MESSAGE value="10.2初始化" />
     <MESSAGE value="new" />
     <MESSAGE value="search_grade.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="search_grade.html" />
+    <MESSAGE value="search_grade.html 直方图" />
+    <option name="LAST_COMMIT_MESSAGE" value="search_grade.html 直方图" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

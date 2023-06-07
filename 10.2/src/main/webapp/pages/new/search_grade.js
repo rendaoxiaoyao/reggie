@@ -191,6 +191,7 @@ function showD() {
 
         str = "<tr class='change' align='center'>";
         str += "<td>" + type + "</td>";
+        str += "<td>" +rs.length + "</td>";
         str += "<td>" + a/rs.length + "</td>";
         str += "<td>" + min + "</td>";
         str += "<td>" + max + "</td>";
