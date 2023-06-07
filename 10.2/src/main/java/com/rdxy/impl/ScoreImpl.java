@@ -265,14 +265,20 @@ public class ScoreImpl implements IScore {
 				pst.setString(1, value);
 				pst.setInt(2, currentPage);
 			} else if (type.equals("tec_stu_all")) {
+				int pageSize=10;
+				if(currentPage<0){
+					currentPage=0;
+					pageSize=100;
+				}
 				String sql = "";
 				sql += "SELECT * FROM score WHERE stu_id IN(SELECT stu_id FROM student WHERE cla_id IN(";
 				sql += "SELECT cla_id FROM classes WHERE cla_tec = ?))OR cla2sub_id IN(";
-				sql += "SELECT cla2sub_id FROM cla2sub WHERE tec_id IN(SELECT tec_id FROM teacher WHERE tec_name=?)) order by sco_id limit ?,10";
+				sql += "SELECT cla2sub_id FROM cla2sub WHERE tec_id IN(SELECT tec_id FROM teacher WHERE tec_name=?)) order by sco_id limit ?,?";
 				pst = conn.prepareStatement(sql);
 				pst.setString(1, value);
 				pst.setString(2, value);
 				pst.setInt(3, currentPage);
+				pst.setInt(4,pageSize);
 			} else if (type.equals("tec_stu_no")) {
 				String sql = "";
 				sql += "SELECT * FROM score WHERE stu_id IN(SELECT stu_id FROM student WHERE cla_id IN(";
