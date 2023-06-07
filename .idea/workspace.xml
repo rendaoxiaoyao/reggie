@@ -10,13 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html 直方图">
-      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/20230330234633.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/420.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,14 +242,7 @@
       <workItem from="1684931321645" duration="2083000" />
       <workItem from="1686050134913" duration="1071000" />
       <workItem from="1686051296412" duration="973000" />
-      <workItem from="1686052338032" duration="33535000" />
-    </task>
-    <task id="LOCAL-00010" summary="3.5.1">
-      <created>1682167872900</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1682167872900</updated>
+      <workItem from="1686052338032" duration="34733000" />
     </task>
     <task id="LOCAL-00011" summary="3.5.1">
       <created>1682171615081</created>
@@ -593,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686142848129</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="search_grade.html 直方图">
+      <created>1686150432083</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1686150432083</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
