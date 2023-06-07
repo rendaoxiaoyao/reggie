@@ -308,11 +308,16 @@ public class ScoreImpl implements IScore {
 			}
 
 			else if (type.equals("tec_sub_name")) {
+				int pageSize=10;
+				if(currentPage<0){
+					currentPage=0;
+					pageSize=100;
+				}
 				String sql = "";
 				sql += "SELECT * FROM score WHERE stu_id IN(SELECT stu_id FROM student WHERE cla_id IN(";
 				sql += "SELECT cla_id FROM classes WHERE cla_tec = ?))AND sub_id IN (SELECT sub_id FROM subject WHERE sub_name =?) OR (cla2sub_id IN(";
 				sql += "SELECT cla2sub_id FROM cla2sub WHERE tec_id IN(SELECT tec_id FROM teacher WHERE tec_name=?))AND sub_id IN(";
-				sql += "SELECT sub_id FROM subject WHERE sub_name= ?))order by sco_id limit ?,10";
+				sql += "SELECT sub_id FROM subject WHERE sub_name= ?))order by sco_id limit ?,?";
 				pst = conn.prepareStatement(sql);
 				String[] values = value.split("_");
 				pst.setString(1, values[0]);
@@ -320,6 +325,7 @@ public class ScoreImpl implements IScore {
 				pst.setString(3, values[0]);
 				pst.setString(4, values[1]);
 				pst.setInt(5, currentPage);
+				pst.setInt(6,pageSize);
 			}
 
 			else if (type.equals("tec_cla_name")) {
