@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html 直方图" />
+    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html 直方图">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,14 +251,7 @@
       <workItem from="1686050134913" duration="1071000" />
       <workItem from="1686051296412" duration="973000" />
       <workItem from="1686052338032" duration="35233000" />
-      <workItem from="1686230300550" duration="652000" />
-    </task>
-    <task id="LOCAL-00014" summary="3.5.1">
-      <created>1682656865222</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1682656865222</updated>
+      <workItem from="1686230300550" duration="6143000" />
     </task>
     <task id="LOCAL-00015" summary="3.5.1">
       <created>1682656969523</created>
@@ -586,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686230812303</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="search_grade.html 直方图">
+      <created>1686231015478</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1686231015478</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,6 +626,17 @@
     <MESSAGE value="search_grade.html" />
     <MESSAGE value="search_grade.html 直方图" />
     <option name="LAST_COMMIT_MESSAGE" value="search_grade.html 直方图" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/SearchStudentServlet.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

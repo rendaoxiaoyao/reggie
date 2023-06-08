@@ -2,7 +2,6 @@
 const scores = [];
 let segmentCounts = [0, 0, 0, 0, 0]; // 记录每个成绩段的人数
 
-let ctx = document.getElementById('count').getContext('2d');
 let myChart
 let myCharta
 // 根据条件查询数据，并显示分页查询数据
@@ -55,7 +54,7 @@ console.log(rs)
         const averageScore = totalScore / scores.length; // 平均分
 
 // 使用Chart.js创建扇形图
-        ctx = document.getElementById('count').getContext('2d');
+        let ctx = document.getElementById('count').getContext('2d');
         const chartData = {
             labels: segmentRanges,
             datasets: [{
@@ -101,22 +100,24 @@ $(function() {
                 && $.trim($("#value").val()) == "")
                 alert("请输入关键字。");
             else {
+                segmentCounts = [0, 0, 0, 0, 0]; // 记录每个成绩段的人数
                 if(myChart instanceof Chart)
                 {
                     myChart.destroy();
                 }
+                showData(cs[0])
                 if(myCharta instanceof Chart)
                 {
                     myCharta.destroy();
                 }
-                segmentCounts=[0,0,0,0,0]
 
-                showData(cs[0])
 
                 var timer = setTimeout(function () {
+
                     showB();
-                }, 1000);
-                showD()
+                    showD()
+                }, 3000);
+
             }
 
 
@@ -175,7 +176,7 @@ function showD() {
 
         $("#table>tbody>tr").not(":first").remove();
         var str = "";
-        let a=0,b,c
+        let a=0
         let max=0,min=100
         for ( var i = 0; i < rs.length; i++) {
 
@@ -187,14 +188,17 @@ function showD() {
                 min=rs[i].count
             }
         }
-        let type=$("#search_type").val()==='stu_all'?'全部科目':$("#search_type").val()
+        let type=$("#search_type").val()==='stu_all'?'全部科目':$("#value").val()
 
+        let b=(rs.length===0?'无':a/rs.length)
+        let c=(rs.length===0?'无':min)
+        let d=(rs.length===0?'无':max)
         str = "<tr class='change' align='center'>";
         str += "<td>" + type + "</td>";
         str += "<td>" +rs.length + "</td>";
-        str += "<td>" + a/rs.length + "</td>";
-        str += "<td>" + min + "</td>";
-        str += "<td>" + max + "</td>";
+        str += "<td>" + b + "</td>";
+        str += "<td>" + c + "</td>";
+        str += "<td>" + d + "</td>";
         $("#table").append(str);
 
     }, "json");

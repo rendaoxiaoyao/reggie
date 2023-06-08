@@ -225,15 +225,27 @@ public class ScoreImpl implements IScore {
 				pst.setString(1, value);
 				pst.setInt(2, currentPage);
 			} else if (type.equals("stu_name")) {
+				int pageSzie=10;
+				if(currentPage<0){
+					currentPage=0;
+					pageSzie=100;
+				}
 				pst = conn
-						.prepareStatement("SELECT * FROM score WHERE stu_id IN(SELECT stu_id FROM student WHERE stu_name LIKE ?) order by sco_id limit ?,10");
+						.prepareStatement("SELECT * FROM score WHERE stu_id IN(SELECT stu_id FROM student WHERE stu_name LIKE ?) order by sco_id limit ?,?");
 				pst.setString(1, "%" + value + "%");
 				pst.setInt(2, currentPage);
+				pst.setInt(3, pageSzie);
 			} else if (type.equals("sub_name")) {
+				int pageSize=10;
+				if(currentPage<0){
+					currentPage=0;
+					pageSize=100;
+				}
 				pst = conn
-						.prepareStatement("SELECT * FROM score WHERE sub_id IN (SELECT sub_id FROM `subject` WHERE sub_name LIKE ?) order by sco_id limit ?,10");
+						.prepareStatement("SELECT * FROM score WHERE sub_id IN (SELECT sub_id FROM `subject` WHERE sub_name LIKE ?) order by sco_id limit ?,?");
 				pst.setString(1, "%" + value + "%");
 				pst.setInt(2, currentPage);
+				pst.setInt(3, pageSize);
 			} else if (type.equals("cla_name")) {
 				pst = conn
 						.prepareStatement("SELECT * FROM score WHERE stu_id IN (SELECT stu_id FROM student WHERE cla_id IN(SELECT cla_id FROM classes WHERE cla_name LIKE ?)) order by sco_id limit ?,10");
