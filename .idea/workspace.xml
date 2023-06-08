@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html 直方图">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,21 +244,8 @@
       <workItem from="1684931321645" duration="2083000" />
       <workItem from="1686050134913" duration="1071000" />
       <workItem from="1686051296412" duration="973000" />
-      <workItem from="1686052338032" duration="34733000" />
-    </task>
-    <task id="LOCAL-00011" summary="3.5.1">
-      <created>1682171615081</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1682171615081</updated>
-    </task>
-    <task id="LOCAL-00012" summary="3.5.1">
-      <created>1682172346954</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1682172346954</updated>
+      <workItem from="1686052338032" duration="35233000" />
+      <workItem from="1686230300550" duration="315000" />
     </task>
     <task id="LOCAL-00013" summary="3.5.1">
       <created>1682656844547</created>
@@ -587,7 +576,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686150432083</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="search_grade.html 直方图">
+      <created>1686151691197</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1686151691197</updated>
+    </task>
+    <task id="LOCAL-00061" summary="search_grade.html 直方图">
+      <created>1686151895953</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1686151895953</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
