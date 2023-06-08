@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.rdxy.entity.Subject;
 import com.rdxy.util.DB;
 import com.rdxy.dao.IScore;
 import com.rdxy.entity.Score;
@@ -354,7 +355,28 @@ public class ScoreImpl implements IScore {
 				pst.setString(4, values[1]);
 				pst.setInt(5, currentPage);
 
-			} else {
+			} else if(type.equals("showT")) {
+				String sql="select su.sub_id,count(*),min(sco_count),max(sco_count),su.sub_name,sum(sco_count)\n" +
+						"from score sc,subject su\n" +
+						"where sc.sub_id=su.sub_id\n" +
+						"group by sc.sub_id;";
+				pst=conn.prepareStatement(sql);
+
+				rs = pst.executeQuery();
+				while (rs.next()) {
+					Score score = new Score();
+					score.setId(rs.getInt(2));
+					score.setDaily(rs.getDouble(3));
+					score.setExam(rs.getDouble(4));
+					score.setCount(rs.getDouble(6));
+					Subject su=new Subject();
+					su.setName(rs.getString(5));
+					score.setSubject(su);
+					list.add(score);
+				}
+				return list;
+
+			}else {
 
 
 				if(currentPage>=0){

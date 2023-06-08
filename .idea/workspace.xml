@@ -12,13 +12,16 @@
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html 直方图">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/ScoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/ScoreImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/ScoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/ScoreImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,14 +254,7 @@
       <workItem from="1686050134913" duration="1071000" />
       <workItem from="1686051296412" duration="973000" />
       <workItem from="1686052338032" duration="35233000" />
-      <workItem from="1686230300550" duration="6143000" />
-    </task>
-    <task id="LOCAL-00015" summary="3.5.1">
-      <created>1682656969523</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1682656969523</updated>
+      <workItem from="1686230300550" duration="8148000" />
     </task>
     <task id="LOCAL-00016" summary="3.5.1">
       <created>1682657006191</created>
@@ -596,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686231015478</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="search_grade.html 直方图">
+      <created>1686236620540</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1686236620540</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,6 +637,11 @@
           <url>file://$PROJECT_DIR$/10.2/src/main/java/com/rdxy/student/servlet/SearchStudentServlet.java</url>
           <line>45</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java</url>
+          <line>374</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

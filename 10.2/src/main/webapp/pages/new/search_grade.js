@@ -115,7 +115,7 @@ $(function() {
                 var timer = setTimeout(function () {
 
                     showB();
-                    showD()
+                    showT()
                 }, 3000);
 
             }
@@ -164,6 +164,33 @@ function showB() {
     });
 
 }
+
+// 根据条件查询数据，并显示分页查询数据
+function showT() {
+    var url = "";
+    url += "/Student/SearchScoreServlet?search_type=showT";
+    url += "&value=showT&page="
+        + -1;
+    $.post(url, null, function(rs) {
+
+        $("#table>tbody>tr").not(":first").remove();
+        var str = "";
+        for ( var i = 0; i < rs.length; i++) {
+            str = "<tr class='change' align='center'>";
+            str += "<td>" + (i + 1) + "</td>";
+            str += "<td>" + rs[i].subject.name + "</td>";
+            str += "<td>" + rs[i].id + "</td>";
+            str += "<td>" + rs[i].daily + "</td>";
+            str += "<td>" + rs[i].exam + "</td>";
+            str += "<td>" + (rs[i].count/rs.length) + "</td>";
+            str += "</tr>";
+            $("#table").append(str);
+        }
+
+
+    }, "json");
+}
+
 
 
 // 根据条件查询数据，并显示分页查询数据
