@@ -277,21 +277,53 @@ public class ScoreImpl implements IScore {
 						.prepareStatement("SELECT * FROM score WHERE stu_id = ? order by sco_id limit ?,10");
 				pst.setString(1, value);
 				pst.setInt(2, currentPage);
+			}else if(type.equals("showD")){
+				String sql="";
+				sql = "SELECT s.sub_id, count(sub_name),min(sco_count),max(sco_count),sub_name,avg(sco_count)\n" +
+						"FROM score sc\n" +
+						"         join subject s on sc.sub_id = s.sub_id\n" +
+						"\n" +
+						"WHERE stu_id IN(SELECT stu_id FROM student WHERE cla_id IN(\n" +
+						"    SELECT cla_id FROM classes WHERE cla_tec = ?))OR cla2sub_id IN(\n" +
+						"    SELECT cla2sub_id FROM cla2sub WHERE tec_id IN(SELECT tec_id FROM teacher WHERE tec_name=?))\n" +
+						"GROUP BY s.sub_id";
+				pst = conn.prepareStatement(sql);
+				pst.setString(1, value);
+				pst.setString(2, value);
+				rs = pst.executeQuery();
+				while (rs.next()) {
+					Score score = new Score();
+					score.setId(rs.getInt(2));
+					score.setDaily(rs.getDouble(3));
+					score.setExam(rs.getDouble(4));
+					score.setCount(rs.getDouble(6));
+					Subject su=new Subject();
+					su.setName(rs.getString(5));
+					score.setSubject(su);
+					list.add(score);
+				}
+				return list;
+
 			} else if (type.equals("tec_stu_all")) {
+				String sql="";
+
 				int pageSize=10;
 				if(currentPage<0){
-					currentPage=0;
 					pageSize=100;
+					currentPage=0;
+
 				}
-				String sql = "";
 				sql += "SELECT * FROM score WHERE stu_id IN(SELECT stu_id FROM student WHERE cla_id IN(";
 				sql += "SELECT cla_id FROM classes WHERE cla_tec = ?))OR cla2sub_id IN(";
 				sql += "SELECT cla2sub_id FROM cla2sub WHERE tec_id IN(SELECT tec_id FROM teacher WHERE tec_name=?)) order by sco_id limit ?,?";
+
 				pst = conn.prepareStatement(sql);
 				pst.setString(1, value);
 				pst.setString(2, value);
 				pst.setInt(3, currentPage);
 				pst.setInt(4,pageSize);
+
+
 			} else if (type.equals("tec_stu_no")) {
 				String sql = "";
 				sql += "SELECT * FROM score WHERE stu_id IN(SELECT stu_id FROM student WHERE cla_id IN(";
@@ -356,7 +388,7 @@ public class ScoreImpl implements IScore {
 				pst.setInt(5, currentPage);
 
 			} else if(type.equals("showT")) {
-				String sql="select su.sub_id,count(*),min(sco_count),max(sco_count),su.sub_name,sum(sco_count)\n" +
+				String sql="select su.sub_id,count(*),min(sco_count),max(sco_count),su.sub_name,avg(sco_count)\n" +
 						"from score sc,subject su\n" +
 						"where sc.sub_id=su.sub_id\n" +
 						"group by sc.sub_id;";

@@ -115,7 +115,8 @@ $(function() {
                 var timer = setTimeout(function () {
 
                     showB();
-                    showT()
+                    // showT()
+                    showD()
                 }, 3000);
 
             }
@@ -182,7 +183,7 @@ function showT() {
             str += "<td>" + rs[i].id + "</td>";
             str += "<td>" + rs[i].daily + "</td>";
             str += "<td>" + rs[i].exam + "</td>";
-            str += "<td>" + (rs[i].count/rs.length) + "</td>";
+            str += "<td>" + (rs[i].count) + "</td>";
             str += "</tr>";
             $("#table").append(str);
         }
@@ -196,7 +197,7 @@ function showT() {
 // 根据条件查询数据，并显示分页查询数据
 function showD() {
     var url = "";
-    url += "/Student/SearchScoreServlet?search_type=" + $("#search_type").val();
+    url += "/Student/SearchScoreServlet?search_type=showD";
     url += "&value=" + encodeURI(encodeURI($("#value").val())) + "&page="
         + -1;
     $.post(url, null, function(rs) {
@@ -206,27 +207,17 @@ function showD() {
         let a=0
         let max=0,min=100
         for ( var i = 0; i < rs.length; i++) {
+            str = "<tr class='change' align='center'>";
+            str += "<td>" + (i + 1) + "</td>";
+            str += "<td>" + rs[i].subject.name + "</td>";
+            str += "<td>" + rs[i].id + "</td>";
+            str += "<td>" + rs[i].daily + "</td>";
+            str += "<td>" + rs[i].exam + "</td>";
+            str += "<td>" + (rs[i].count) + "</td>";
+            str += "</tr>";
+            $("#table").append(str);
 
-            a+=rs[i].count
-            if(rs[i].count>max){
-                max=rs[i].count
-            }
-            if(rs[i].count<min){
-                min=rs[i].count
-            }
         }
-        let type=$("#search_type").val()==='stu_all'?'全部科目':$("#value").val()
-
-        let b=(rs.length===0?'无':a/rs.length)
-        let c=(rs.length===0?'无':min)
-        let d=(rs.length===0?'无':max)
-        str = "<tr class='change' align='center'>";
-        str += "<td>" + type + "</td>";
-        str += "<td>" +rs.length + "</td>";
-        str += "<td>" + b + "</td>";
-        str += "<td>" + c + "</td>";
-        str += "<td>" + d + "</td>";
-        $("#table").append(str);
 
     }, "json");
 }

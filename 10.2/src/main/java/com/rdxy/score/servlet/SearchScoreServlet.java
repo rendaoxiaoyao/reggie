@@ -73,6 +73,9 @@ public class SearchScoreServlet extends HttpServlet {
 			} else if (search_type.equals("cla_name")) {
 				list_score = scoreImpl.query("tec_cla_name", teacher.getName()
 						+ "_" + search_value, page);
+			}else if(search_type.equals("showD")){
+				list_score = scoreImpl.query(search_type, teacher.getName()
+						+ "", page);
 			}
 		} else {
 			// 学生查询

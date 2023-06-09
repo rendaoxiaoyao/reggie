@@ -12,15 +12,10 @@
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html 直方图">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/SearchScoreServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/SearchScoreServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/ScoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/ScoreImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/ScoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/ScoreImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,14 +249,7 @@
       <workItem from="1686050134913" duration="1071000" />
       <workItem from="1686051296412" duration="973000" />
       <workItem from="1686052338032" duration="35233000" />
-      <workItem from="1686230300550" duration="8148000" />
-    </task>
-    <task id="LOCAL-00016" summary="3.5.1">
-      <created>1682657006191</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1682657006191</updated>
+      <workItem from="1686230300550" duration="20160000" />
     </task>
     <task id="LOCAL-00017" summary="导入6.3">
       <created>1683794135785</created>
@@ -599,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686236620540</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="search_grade.html 直方图">
+      <created>1686238897393</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1686238897394</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,8 +635,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java</url>
-          <line>374</line>
-          <option name="timeStamp" value="8" />
+          <line>339</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java</url>
+          <line>389</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
