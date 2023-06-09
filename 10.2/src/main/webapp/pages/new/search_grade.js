@@ -115,7 +115,7 @@ $(function() {
                 var timer = setTimeout(function () {
 
                     showB();
-                    // showT()
+                    showT()
                     showD()
                 }, 3000);
 

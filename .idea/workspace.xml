@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html 直方图">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc7bff5b-b2df-4c6b-ae78-dba17935ab7f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc7bff5b-b2df-4c6b-ae78-dba17935ab7f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/score/servlet/SearchScoreServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/score/servlet/SearchScoreServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/score/servlet/SearchScoreServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/score/servlet/SearchScoreServlet.class" afterDir="false" />
-    </list>
+    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html 直方图" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,14 +242,7 @@
       <workItem from="1686051296412" duration="973000" />
       <workItem from="1686052338032" duration="35233000" />
       <workItem from="1686230300550" duration="20312000" />
-      <workItem from="1686300189266" duration="1259000" />
-    </task>
-    <task id="LOCAL-00018" summary="导入6.3">
-      <created>1683795866917</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1683795866917</updated>
+      <workItem from="1686300189266" duration="1889000" />
     </task>
     <task id="LOCAL-00019" summary="导入6.3">
       <created>1683797048052</created>
@@ -592,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686299706127</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="search_grade.html 直方图">
+      <created>1686302869165</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1686302869166</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
