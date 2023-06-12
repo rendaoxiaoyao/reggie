@@ -105,19 +105,34 @@ $(function() {
                 {
                     myChart.destroy();
                 }
-                showData(cs[0])
+
                 if(myCharta instanceof Chart)
                 {
                     myCharta.destroy();
                 }
 
+                var roleId = getRoleId();
 
-                var timer = setTimeout(function () {
+                if(roleId!=3){
+                    showData(cs[0])
 
-                    showB();
-                    showT()
-                    showD()
-                }, 3000);
+
+                    var timer = setTimeout(function () {
+
+                        showB();
+                        // alert(roleId)
+                        if(roleId==1){
+                            showT()
+                        }else{
+                            showD()
+                        }
+
+                    }, 3000);
+                }else{
+
+                    showPM()
+                }
+
 
             }
 
@@ -214,6 +229,78 @@ function showD() {
             str += "<td>" + rs[i].daily + "</td>";
             str += "<td>" + rs[i].exam + "</td>";
             str += "<td>" + (rs[i].count) + "</td>";
+            str += "</tr>";
+            $("#table").append(str);
+
+        }
+
+    }, "json");
+}
+
+
+// 获取当前登录的用户的角色ID，用来判断是否提供修改链接
+function getRoleId() {
+    var rol_id;
+    var url = "/Student/LoginServlet?type=get_rol_id";
+    $.ajax( {
+        type : "post",
+        url : url,
+        async : false,
+        dataType : "text",
+        success : function(rs) {
+            rol_id = rs;
+        }
+    });
+    return rol_id;
+}
+
+
+// 根据条件查询数据，并显示分页查询数据
+function showS() {
+    var url = "";
+    url += "/Student/SearchScoreServlet?search_type=showS";
+    url += "&value=" + encodeURI(encodeURI($("#value").val())) + "&page="
+        + -1;
+    $.post(url, null, function(rs) {
+
+        $("#table>tbody>tr").not(":first").remove();
+        var str = "";
+        let a=0
+        let max=0,min=100
+        for ( var i = 0; i < rs.length; i++) {
+            str = "<tr class='change' align='center'>";
+            str += "<td>" + (i + 1) + "</td>";
+            str += "<td>" + rs[i].subject.name + "</td>";
+            str += "<td>" + rs[i].id + "</td>";
+            str += "<td>" + rs[i].daily + "</td>";
+            str += "<td>" + rs[i].exam + "</td>";
+            str += "<td>" + (rs[i].count) + "</td>";
+            str += "</tr>";
+            $("#table").append(str);
+
+        }
+
+    }, "json");
+}
+
+// 根据条件查询数据，并显示分页查询数据
+function showPM() {
+    var url = "";
+    url += "/Student/SearchScoreServlet?search_type=showPM";
+    url += "&value=" + encodeURI(encodeURI($("#value").val())) + "&page="
+        + -1;
+    $.post(url, null, function(rs) {
+
+        $("#table>tbody>tr").not(":first").remove();
+        var str = "";
+        let a=0
+        let max=0,min=100
+        for ( var i = 0; i < rs.length; i++) {
+            str = "<tr class='change' align='center'>";
+            str += "<td>" + (i + 1) + "</td>";
+            str += "<td>" + rs[i].subject.name + "</td>";
+            str += "<td>" + (rs[i].count) + "</td>";
+            str += "<td>" + rs[i].id + "</td>";
             str += "</tr>";
             $("#table").append(str);
 

@@ -4,7 +4,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.rdxy.entity.Subject;
 import com.rdxy.util.DB;
@@ -388,6 +390,39 @@ public class ScoreImpl implements IScore {
 				pst.setInt(5, currentPage);
 
 			} else if(type.equals("showT")) {
+				String sql="";
+//				sql = "SELECT s.sub_id, count(sub_name),min(sco_count),max(sco_count),sub_name,avg(sco_count)\n" +
+//						"FROM score sc\n" +
+//						"         join subject s on sc.sub_id = s.sub_id\n" +
+//						"\n" +
+//						"WHERE stu_id IN(SELECT stu_id FROM student WHERE cla_id IN(\n" +
+//						"    SELECT cla_id FROM classes WHERE cla_tec = ?))OR cla2sub_id IN(\n" +
+//						"    SELECT cla2sub_id FROM cla2sub WHERE tec_id IN(SELECT tec_id FROM teacher WHERE tec_name=?))\n" +
+//						"GROUP BY s.sub_id";
+				sql="select su.sub_id,count(*),min(sco_count),max(sco_count),su.sub_name,avg(sco_count)\n" +
+						"from score sc,subject su,teacher\n" +
+						"where sc.sub_id=su.sub_id and tec_id IN(SELECT tec_id FROM teacher WHERE tec_name='李红')\n" +
+						"group by sc.sub_id;";
+				pst = conn.prepareStatement(sql);
+//				pst.setString(1, value);
+//				pst.setString(2, value);
+				rs = pst.executeQuery();
+				while (rs.next()) {
+					Score score = new Score();
+					score.setId(rs.getInt(2));
+					score.setDaily(rs.getDouble(3));
+					score.setExam(rs.getDouble(4));
+					score.setCount(rs.getDouble(6));
+					Subject su=new Subject();
+					su.setName(rs.getString(5));
+					score.setSubject(su);
+					list.add(score);
+				}
+				return list;
+
+
+			}else if(type.equals("showS")) {
+
 				String sql="select su.sub_id,count(*),min(sco_count),max(sco_count),su.sub_name,avg(sco_count)\n" +
 						"from score sc,subject su\n" +
 						"where sc.sub_id=su.sub_id\n" +
@@ -408,6 +443,50 @@ public class ScoreImpl implements IScore {
 				}
 				return list;
 
+			}else if(type.equals("showPM")){
+				String sql1="select sub_id\n" +
+						"from score\n" +
+						"where stu_id=?;";
+
+				String[] values=value.split("_");
+				pst=conn.prepareStatement(sql1);
+				pst.setInt(1, Integer.parseInt(values[0]));
+				rs = pst.executeQuery();
+				List<Integer> sub=new ArrayList<>();
+				while (rs.next()) {
+					sub.add(rs.getInt(1));
+				}
+				String sql2="select sco_id,sc.stu_id,st.stu_name,su.sub_name,sco_count,RANK() over (ORDER BY sco_count DESC) '排名'\n" +
+						"from score sc,student st,subject su\n" +
+						"where sc.stu_id=st.stu_id\n" +
+						"  and sc.sub_id=su.sub_id\n" +
+						"  and su.sub_id=?;";
+
+				for (Integer integer : sub) {
+					System.out.println("aaaaaaaaaaaaaaaaaaaaa="+integer);
+				}
+
+				for (Integer integer : sub) {
+					pst=conn.prepareStatement(sql2);
+					pst.setInt(1,integer);
+					rs = pst.executeQuery();
+					while (rs.next()) {
+						if(rs.getString(2).equals(values[0])){
+							Score score = new Score();
+							score.setId(rs.getInt(6));
+							score.setCount(rs.getDouble(5));
+							Subject su=new Subject();
+							su.setName(rs.getString(4));
+							score.setSubject(su);
+							list.add(score);
+						}
+						int i=0;
+					}
+
+				}
+
+
+				return list;
 			}else {
 
 

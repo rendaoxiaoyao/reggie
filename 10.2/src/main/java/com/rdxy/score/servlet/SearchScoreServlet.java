@@ -86,7 +86,13 @@ public class SearchScoreServlet extends HttpServlet {
 			} else if (search_type.equals("sub_name")) {
 				list_score = scoreImpl.query("stu_sub_name", student.getId()
 						+ "_" + search_value, page);
-			} else {
+			}else if(search_type.equals("showS")){
+				list_score = scoreImpl.query(search_type, student.getId()
+						+ "_" + search_value, page);
+			}else if(search_type.equals("showPM")){
+                list_score = scoreImpl.query(search_type, student.getId()
+                        + "_" + search_value, page);
+            } else {
 				list_score = scoreImpl.query("stu_tec_name", student.getId()
 						+ "_" + search_value, page);
 			}

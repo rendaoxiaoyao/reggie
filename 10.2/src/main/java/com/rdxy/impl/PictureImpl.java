@@ -46,8 +46,8 @@ public class PictureImpl implements IPicture
 	public void upload(File file, Student student)
 	{
 		try
-		{
-			String pic = "upload/" + student.getNo() + "." + file.getFileExt().toLowerCase();
+		{//upload
+			String pic = "images/" + student.getNo() + "." + file.getFileExt().toLowerCase();
 			student.setPic("../" + pic);
 			file.saveAs(pic);
 		} catch (Exception e)
