@@ -258,9 +258,13 @@ function getRoleId() {
 // 根据条件查询数据，并显示分页查询数据
 function showS() {
     var url = "";
+
+
+
     url += "/Student/SearchScoreServlet?search_type=showS";
     url += "&value=" + encodeURI(encodeURI($("#value").val())) + "&page="
         + -1;
+
     $.post(url, null, function(rs) {
 
         $("#table>tbody>tr").not(":first").remove();
@@ -287,8 +291,14 @@ function showS() {
 function showPM() {
     var url = "";
     url += "/Student/SearchScoreServlet?search_type=showPM";
-    url += "&value=" + encodeURI(encodeURI($("#value").val())) + "&page="
-        + -1;
+    if($("#search_type").val()=="stu_all"){
+        url += "&value=&page="
+            + -1;
+    }else{
+        url += "&value=" + encodeURI(encodeURI($("#value").val())) + "&page="
+            + -1;
+    }
+
     $.post(url, null, function(rs) {
 
         $("#table>tbody>tr").not(":first").remove();

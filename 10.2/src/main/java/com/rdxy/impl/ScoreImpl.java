@@ -466,9 +466,14 @@ public class ScoreImpl implements IScore {
 					System.out.println("aaaaaaaaaaaaaaaaaaaaa="+integer);
 				}
 
-				for (Integer integer : sub) {
+				if(values.length>1){
+					sql2="select sco_id,sc.stu_id,st.stu_name,su.sub_name,sco_count,RANK() over (ORDER BY sco_count DESC) '排名'\n" +
+							"from score sc,student st,subject su\n" +
+							"where sc.stu_id=st.stu_id\n" +
+							"  and sc.sub_id=su.sub_id\n" +
+							"  and su.sub_name=?;";
 					pst=conn.prepareStatement(sql2);
-					pst.setInt(1,integer);
+					pst.setString(1,values[1]);
 					rs = pst.executeQuery();
 					while (rs.next()) {
 						if(rs.getString(2).equals(values[0])){
@@ -480,11 +485,27 @@ public class ScoreImpl implements IScore {
 							score.setSubject(su);
 							list.add(score);
 						}
-						int i=0;
 					}
+				}else{
+					for (Integer integer : sub) {
+						pst=conn.prepareStatement(sql2);
+						pst.setInt(1,integer);
+						rs = pst.executeQuery();
+						while (rs.next()) {
+							if(rs.getString(2).equals(values[0])){
+								Score score = new Score();
+								score.setId(rs.getInt(6));
+								score.setCount(rs.getDouble(5));
+								Subject su=new Subject();
+								su.setName(rs.getString(4));
+								score.setSubject(su);
+								list.add(score);
+							}
+							int i=0;
+						}
 
+					}
 				}
-
 
 				return list;
 			}else {

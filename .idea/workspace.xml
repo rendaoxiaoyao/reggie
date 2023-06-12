@@ -9,29 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="search_grade.html 直方图">
-      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/student_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc7bff5b-b2df-4c6b-ae78-dba17935ab7f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc7bff5b-b2df-4c6b-ae78-dba17935ab7f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="学生排名">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/PictureImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/PictureImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/SearchScoreServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/SearchScoreServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/PictureImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/PictureImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/ScoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/ScoreImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/score/servlet/SearchScoreServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/score/servlet/SearchScoreServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/upload/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/upload/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/PictureImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/PictureImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/ScoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/ScoreImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/score/servlet/SearchScoreServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/score/servlet/SearchScoreServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,14 +252,7 @@
       <workItem from="1686230300550" duration="20312000" />
       <workItem from="1686300189266" duration="4451000" />
       <workItem from="1686380908722" duration="8674000" />
-      <workItem from="1686531648930" duration="8909000" />
-    </task>
-    <task id="LOCAL-00020" summary="导入6.3">
-      <created>1683797337403</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1683797337403</updated>
+      <workItem from="1686531648930" duration="10666000" />
     </task>
     <task id="LOCAL-00021" summary="导入6.3">
       <created>1683800855015</created>
@@ -613,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686303821042</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="学生排名">
+      <created>1686565570101</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1686565570102</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,7 +626,8 @@
     <MESSAGE value="new" />
     <MESSAGE value="search_grade.html" />
     <MESSAGE value="search_grade.html 直方图" />
-    <option name="LAST_COMMIT_MESSAGE" value="search_grade.html 直方图" />
+    <MESSAGE value="学生排名" />
+    <option name="LAST_COMMIT_MESSAGE" value="学生排名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -666,16 +651,6 @@
           <url>file://$PROJECT_DIR$/10.2/src/main/java/com/rdxy/score/servlet/ReportScoreServlet.java</url>
           <line>57</line>
           <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java</url>
-          <line>446</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java</url>
-          <line>482</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
