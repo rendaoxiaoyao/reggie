@@ -239,6 +239,10 @@ public class ScoreImpl implements IScore {
 				pst.setInt(2, currentPage);
 				pst.setInt(3, pageSzie);
 			} else if (type.equals("sub_name")) {
+				if(value.contains(" ")){
+					value=value.replace(" ","+");
+
+				}
 				int pageSize=10;
 				if(currentPage<0){
 					currentPage=0;

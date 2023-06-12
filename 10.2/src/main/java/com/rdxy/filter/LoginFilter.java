@@ -19,6 +19,7 @@ public class LoginFilter implements Filter
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException
 	{
+
 		HttpServletRequest hs=(HttpServletRequest) request;
 		request.setCharacterEncoding("UTF-8");
 		// 如果还没有登录的话跳回登录页面
@@ -30,10 +31,8 @@ public class LoginFilter implements Filter
 		System.out.println(hs.getRequestURL());
 
 		if (isLogin == null || isLogin.equals("")) {
-			System.out.println("NO");
 			((HttpServletResponse) response).sendRedirect("/Student/login.jsp");
 		} else{
-			System.out.println("YES");
 			chain.doFilter(request, response);
 		}
 

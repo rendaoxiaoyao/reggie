@@ -6,6 +6,14 @@
   <welcome-file-list>
     <welcome-file>com.rdxy.login.jsp</welcome-file>
   </welcome-file-list>
+  <listener>
+    <listener-class>com.rdxy.listener.NumberListener</listener-class>
+  </listener>
+
+  <listener>
+    <listener-class>com.rdxy.listener.UserListener</listener-class>
+  </listener>
+
   <filter>
     <filter-name>EnCodeFilter</filter-name>
     <filter-class>com.rdxy.filter.EnCodeFilter</filter-class>

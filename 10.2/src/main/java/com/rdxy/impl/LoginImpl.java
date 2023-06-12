@@ -47,6 +47,8 @@ public class LoginImpl implements ILogin {
 					// 登录成功
 					session.setAttribute("isLogin", "true");
 
+
+
 					// 获得该用户的完整信息
 					log_operator.setId(rs.getInt(1));
 					log_operator.setName(rs.getString(2));
@@ -61,11 +63,11 @@ public class LoginImpl implements ILogin {
 							+ "");
 					List<Privilege> list = new ArrayList<Privilege>();
 					list.add(list_privilege.get(0));
-					
+
 					for (int i = 1; i < list_privilege.size(); i++) {
                           int y=0;
 						for(int x=0;x<list.size();x++){
-							
+
 							if(!list.get(x).getMenu_name().equals(
 									list_privilege.get(i).getMenu_name())){
 								y++;

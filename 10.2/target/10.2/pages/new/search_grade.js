@@ -8,7 +8,7 @@ let myCharta
 function showData(page) {
     // 划分成绩段并计算人数、平均分、最高分等信息
 
-    let segmentRanges = ["0~60", "60~80", "80~89", "90~99", "100"]; // 每个成绩段的分数范围
+    let segmentRanges = ["0~60", "60~79", "80~89", "90~99", "100"]; // 每个成绩段的分数范围
     let maxScore = 0;
     let totalScore = 0;
 
@@ -219,8 +219,6 @@ function showD() {
 
         $("#table>tbody>tr").not(":first").remove();
         var str = "";
-        let a=0
-        let max=0,min=100
         for ( var i = 0; i < rs.length; i++) {
             str = "<tr class='change' align='center'>";
             str += "<td>" + (i + 1) + "</td>";
@@ -269,8 +267,6 @@ function showS() {
 
         $("#table>tbody>tr").not(":first").remove();
         var str = "";
-        let a=0
-        let max=0,min=100
         for ( var i = 0; i < rs.length; i++) {
             str = "<tr class='change' align='center'>";
             str += "<td>" + (i + 1) + "</td>";

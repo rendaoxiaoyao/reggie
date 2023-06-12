@@ -16,9 +16,12 @@
 		<p>
 			<img class="titleIMG" src="../images/Title.jpg" />
 		</p>
+
 		<div class="user" align="center">
 			<table class="msg">
 				<tr>
+					<td>当前在线<span><%=(Integer)this.getServletConfig().getServletContext().getAttribute("number")-1%></span>人</td>
+					<td>当前登录<span>${loginR}</span>人</td>
 					<td width="48"><a href="###">${sessionScope.log_operator.name}</a></td>
 					<td width="3">|</td>
 					<td width="66"><a id="dou" href="###">个人中心</a></td>
