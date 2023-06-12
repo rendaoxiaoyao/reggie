@@ -11,11 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be6c7155-758e-4c80-ab47-94f5feb91b24" name="变更" comment="学生排名">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/java/com/rdxy/impl/ScoreImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/src/main/webapp/pages/new/search_grade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/ScoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/WEB-INF/classes/com/rdxy/impl/ScoreImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/10.2/pages/new/search_grade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/ScoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10.2/target/classes/com/rdxy/impl/ScoreImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,14 +248,7 @@
       <workItem from="1686230300550" duration="20312000" />
       <workItem from="1686300189266" duration="4451000" />
       <workItem from="1686380908722" duration="8674000" />
-      <workItem from="1686531648930" duration="10666000" />
-    </task>
-    <task id="LOCAL-00021" summary="导入6.3">
-      <created>1683800855015</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1683800855015</updated>
+      <workItem from="1686531648930" duration="11729000" />
     </task>
     <task id="LOCAL-00022" summary="导入6.3">
       <created>1683801745787</created>
@@ -597,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686565570102</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="学生排名">
+      <created>1686567194641</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1686567194641</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -219,8 +219,6 @@ function showD() {
 
         $("#table>tbody>tr").not(":first").remove();
         var str = "";
-        let a=0
-        let max=0,min=100
         for ( var i = 0; i < rs.length; i++) {
             str = "<tr class='change' align='center'>";
             str += "<td>" + (i + 1) + "</td>";
@@ -269,8 +267,6 @@ function showS() {
 
         $("#table>tbody>tr").not(":first").remove();
         var str = "";
-        let a=0
-        let max=0,min=100
         for ( var i = 0; i < rs.length; i++) {
             str = "<tr class='change' align='center'>";
             str += "<td>" + (i + 1) + "</td>";
